@@ -1,0 +1,37 @@
+---
+title: "This is just a demo document"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Introduction to R
+R Sweave documents are a combination of R and \LaTeX{} codes that allow to produce neat reports. For instance:
+```{r hist}
+set.seed(1234567)
+x=rnorm(30)
+hist(x,col="gray",main="Histogram of random data")
+box()
+```
+
+\section{Tables}
+Some tricks may help improve the apperance of the output:
+```{r table}
+set.seed(1234567)
+u=sample(0:1,50,replace=TRUE)
+v=sample(0:1,50,replace=TRUE)
+table(u,v)
+```
+The \tt{kable} function from \tt{knitr} for instance:
+
+```{r bettertable}
+require(knitr)
+kable(table(u,v))
+```
+
+
+\section{Your turn}
+Try to compile this file first. Then try to modify it and see if you can generate pdf reports automatically. There is a ton of online examples and support on how to tune your documents.
