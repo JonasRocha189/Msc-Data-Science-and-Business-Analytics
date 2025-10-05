@@ -84,7 +84,7 @@ title("Evolution of sales")
 # Reading a data file
 
 # NOTE: Write complete path, or change the working directory 
-x=read.table("employees.txt")	
+x=read.table("Data/employees.txt")	
 x
 names(x)				# Name of variables in x
 unique(x[,1])			# Removes repeated values
@@ -103,7 +103,8 @@ for(i in 1:6){
 }
 
 # Structure of statistical analyses
-x=read.table("Msc Data Science and Business Analytics/Statistical Learning - MATH60603A/0 - R basics (self-learning)/IntroR/Data/Big5.txt")
+x=read.table("Data/Big5.txt")
+head(x)
 reg=lm(Amount ~ Extraversion, data=x)
 print(reg)		# Summary of the fit
 summary(reg)		# More details on the fit
