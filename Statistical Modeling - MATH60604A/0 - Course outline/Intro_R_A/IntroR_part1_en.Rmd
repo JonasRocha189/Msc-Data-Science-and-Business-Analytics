@@ -1,0 +1,472 @@
+---
+title: "Introduction to R - part 1"
+author: "Author: Aurélie Labbe, translation: Juliana Schulz"
+output:
+  pdf_document: default
+  html_document: default
+  number_sections: true
+---
+
+<style>
+p.exercice {
+background-color: #DBDBDB;
+padding: 10px;
+border: 1px solid black;
+margin-left: 5px;
+border-radius: 5px;
+font-style: italic;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse,verbose=FALSE)
+```
+
+<br>
+<br>
+
+This document provides an overview of some of the main features of the statistical language R. For more details, please refer to the various manuals and help files provided in R.
+
+The following topics will be covered:
+
+* Introduction to R Studio, and working with R
+* Types of objects in R: scalars, vectors, matrices and dataframes
+* Writing reports in R Studio
+
+
+<br>
+
+## R Studio
+
+*R Studio* is an environment specifically designed for editing R code. It has numerous fonctionalities that are very useful, including (among others) the following: 
+
+* Color coding for different components of an R code script (e.g.: comments are in green, certain keywords are in blue, etc...)
+* Possibility to run commands in R directly from the code file without having to copy and paste them into the R console
+* Tools for managing product graphics and file management
+* Ability to create automatic reports including text, R code and R output
+* etc ...
+
+ R Studio is a free platform and can be installed on Windows, Mac or Linux. When you open it, you will see that it contains 4 windows:
+
+
+![](Figures/fig1_a.png)
+
+You can open an existing .R code file, or open a new .R file using the `File` menu in the top left corner above the editor window. 
+To run the code in a file containing R commands, you must select (highlight) the lines of code that you want to execute in the window containing the R code (text editor) and then click on the `Run` button in the editor window. You can also simply copy and paste the lines of code directly into the console window.
+
+<p class="exercice">
+    **Exercise** Type the command `plot(1:100,1:100)` directly in the console (bottom left window). Running this code produces a graph that will shown in the bottom right window.
+</p>
+
+<p class="exercice">
+    **Exercise** Type the command `help(mean)` directly in the console (bottom left window). A help file describing the `mean` command in R will open in the bottom right window.
+</p>
+
+<br>   
+
+
+## Before starting....
+
+**Be sure to download all relevant files for the Introduction to R, and that all of these files are saved in a relevant directory on your computer (.html files, pdf files, data files, R code).**
+
+Note that comments can be incorporated into R code (.R file) at any point by simply including the # symbol before the comment, e.g.:
+
+```{r}
+# this is a comment 
+a = 1 # this is a comment, but a=1 is an R command 
+```
+
+While working in a R session, you will likely need to import data that have been saved somewhere on your computer. You may also need to save certain results from your R session. If all of your files are saved in the same directory on your computer, and that you would like to avoid having to specify the exact path to these files each time, you can specify a `working directory' in R, which indicates that all work will be done from the given directory specified. This can be done with the following command:
+
+
+```{r}
+# Careful: you must change the path to the appropriate one on your own computer! 
+setwd("~/Cours HEC/Intro R")
+```
+This can also be done by clicking on `Session` in the menu above the text editor, and then choosing the option `Set working directory`. From there, clicking `Source file location` will set the working directory to be the same as that where the R program is saved, while clicking on `Choose location' will allow you to choose a specific path to the directory of your choice.
+
+<p class="exercice">
+    **Exercise:** change the working directory to specify to R that you will be working with the directory where all the files for the Introduction to R are saved.
+</p>
+  
+  
+  
+Before starting, here are some general tips on handling data in R: 
+
+* In general, it's easier to import data into R from `.txt` or `.csv` files.
+* It's recommended to include the variable names in the first line of the data file.
+* **Do not use spaces or accents in variable names**
+* Use variable names that are meaningful for the variables they describe (rather than $x_1$, $x_2$, ...)
+* Avoid long variable names.
+* Avoid complicated date formats (rather try to separate dates into columns for day  / month / year).
+* **Careful, R differentiates between uppercase and lowercase letters in variable names as well as in R commands.**
+
+
+    
+    
+<br>   
+
+## Datasets used in part 1 of the introduction
+
+### Electricity data
+
+We'll illustrate the use of different concepts and commands in R using a dataset on household electricity consumption between January 1991 and December 2000. Each line of the dataset represents information for one given month. The data are saved in the files `electricbill.txt` and `electricbill.csv`. The data includes the following variables:
+
+*   `NUM`: identification of the observation 
+*   `YEAR`: year
+*   `MONTH`: month
+*   `BILL`: bill amount, in dollors (including 5\% sale tax)
+*   `TEMP`: mean temperature (in Fahrenheit)
+*   `HDD`: measure quantifying the amount of energy necessary to heat the building 
+*   `CDD`: measure quantifying the amount of energy necessary to cool the building 
+*   `SIZE`: number of people living in the house 
+*   `METER`: presence of a new electrical meter (1=yes, 0=no) 
+*   `PUMP1`: presence of a new heat pump (1=yes, 0=no) 
+*   `PUMP2`: presence of a new heat pump for the second time (1=yes, 0=no) 
+*   `RIDER TOTAL`: total load (by kwh) 
+*   `CONSUMPTION`: consumption (in kwh) 
+
+
+### Baby-boom data
+
+You will practice the concepts learned using the `babyboom.txt` dataset. The data contains information on the time of birth, sex and birth weight of 44 babies born in a 24 hour period at the Brisbane Hospital, Australia. The variables are as follows:
+    
+*  `Time`: time of birth 
+*  `Sex`: baby's sex (1=female, 2=male) 
+*  `Weight`: baby's birthweight (in grams) 
+*  `Time.midnight`: number of minutes past midnight at the moment of birth 
+  
+  
+<br> 
+
+## Basic calculations: using R as a calculator 
+R can be used as a simple calculator. In the absence of instructions for how a command output should be used, R will generally just display the results directly in the console window. For now, ignore the [1] shown before the answer (we'll later see how this is helpful when R generates several numbers at the same time). Note that R follows standard mathematical rules regarding multiplication and division, before addition and subtraction: e.g., 2 will be divided by 3 before adding 100 in carrying out the operation 2/3+100. Here are some examples of basic code:
+
+```{r}
+2+3
+pi
+2+3*pi
+log(2+3*pi)
+log(2,base=10)
+log(2,base=2)
+exp(2.435785)
+```
+
+
+
+
+
+<p class="exercice">
+  **Exercise** Try this out yourself...  
+</p>
+  
+
+<br>
+
+## Type of objects in R
+R allows to create a variaety of different objects, such as:
+
+* **Scalar**: a cell or entry in a dataset
+* **Vector**: a row or column in a dataset 
+* **Matrix**: a table of data (all of the same form - quantitative or character), with rows and columns
+* **Dataframe**: a table of data in which the columns can be of different formats (character, numerical, etc...)
+
+
+### Scalars
+This is the most simple object in R. Assigning an object to a value can be done using the `=` or `<-` operator. Here, we'll use the `=` operator, but both are equivalent.
+```{r}
+a=3 # Create a scalar variable called a, taking the value 3 
+a # Display the value of the variable a
+a<-3 # same code, using the <- operator 
+a
+b=5 # Create a scalar variable called b, taking the value 5 
+b # Display the value of b 
+b-a # Display the value of b-a 
+d=b/a # Store the value of b/a in a new variable called d 
+d # Display the value of d
+```
+
+
+### Vectors
+A vector is a sequence of elements of the same type (for example: all numeric or all character). As a general rule, a column or row of a dataset (sequence of entries) is stored in vector form in R. Before exploring how to read vectors directly from datasets, we'll being by manually creating vectors by hand. 
+
+The `c` command in R is used to create vectors. You can access the elements of the vector using square brackets `[]`: 
+```{r}
+x=c(2,3,1,5,4,6,5,7,6,8) # create a vector x with 10 numerical components 
+x # display the value of x 
+x[3] # display the 3rd element of x 
+a=x[3] # store the 3rd element of x in an object called a 
+a # display the value of a
+```
+
+
+<p class="exercice">
+**Exercise:** Create a vector `year` of length 7 consisting of the numbers 2010 through 2016. Display the value of the vector on your screen. 
+</p>
+
+<p class="exercice">
+**Exercise:** You can add and subtract a number from a vector, as well as multiply or divide a vector by a number. For example, try to subtract the number 2009 from the vector `year` (this can be done using the command `year-2009`). 
+</p>
+
+
+<p class="exercice">
+**Exercise:** Create a variable `dollar.amount` taking the values (55,70,100,20,15). Now, create a vector `euro.amount` corresponding to the same amounts but in euros (note that 1 Canadian dollar = 0.66 euros).
+</p>
+
+
+It's possible to add, subtract, multiply and divide a vector by another vector, component-wise. Here is an example: 
+```{r}
+salary=c(36,54,42,81) # salary of 4 employees 
+increase=c(0.02,0.02,0.03,0.05) # salary increase for each employee 
+salary_final=salary*(1+increase) # salary with increase
+salary_final
+```
+
+
+<p class="exercice">
+**Exercise:** Do out an example yourself to illustrate vector addition / subtraction in R. 
+</p>
+  
+  
+
+### Matrices
+Matries are defined as a table of scalars (with rows and columns). Each column of a matrix must be of the same type (numerical, character, etc.) and of the same length, just as in a dataset. We'll later see how to store data from an external file as a matrix in R, but to start we'll see how to create matrices by hand and how to extract elements from the matrix.
+
+The `matrix` command in R is used to create a matrix:
+
+```{r}
+z=matrix(c(1,2,3,4,5,6,7,8,9), nrow=3, byrow=T) # defines matrix by row 
+z
+z.transpose=matrix(c(1,2,3,4,5,6,7,8,9), nrow=3, byrow=F) # defines matrix by column 
+z.transpose
+```
+
+To extract specific elements from the matrix: 
+```{r}
+z[2,3] # element from row 2 column 3 
+z[,1] # 1st column
+z[1,] # 1st row
+```
+
+Another example:
+```{r}
+z=matrix(0, nrow=5, ncol=2) # initially defines matrix with all 0's 
+# create 2 vectors s
+amount.dollars=c(55,70,100,20,15)
+amount.euros=0.66*amount.dollars
+# fill each of the columns of the matrix z respectively with the 2 vectors created 
+z[,1]=amount.dollars
+z[,2]=amount.euros
+z 
+```
+
+### Dataframes and reading data files
+A dataframe is a type of object typically used for storing datasets in R. Before examining the details of this type of object, we'll start by seeing how to read a data file and store data in a dataframe.
+
+Here is the main R function used for reading data stored in a file, with the most useful options typically used:
+```{r eval=FALSE}
+read.table(file, header = FALSE, sep = "",dec = ".", row.names, col.names,na.strings = "NA",skip = 0)
+```
+The main options of this function (among many) are the following:
+
+  
+* `file`: the name of the file (including the path) containing the data to be read into R. Each line of the file will consist of a line in the table in R. If no path is provided and rather only a file name is provided, R will look for the file within the current working directory. 
+
+* `header`: logical value (TRUE or FALSE) indicating whether the first line of the file contains the variable names. 
+
+* `sep`: separation character which separates the entries within the file. If `sep = " "`, the separator is simply a white space (this is the default in R). If `sep="\t"`, the separator is a tabulation. There are several choices for the type of separator (comma, semicolon, etc.) 
+
+* `dec`: character used for decimals (default is a period ".") 
+
+* `row.names`: list of row names (if any). If the row names are not specified, the rows are numbered. 
+
+* `col.names`: (optional) column names, i.e., the variable names (not needed if `header=TRUE` is specified)
+
+* `na.strings`: characters used to indicate missing values in the file. By default, blank spaces are conisdered missing values. 
+
+* `skip`: number of lines (rows) to skip before reading the data in the file. 
+
+
+For example, here is code allowing to read the data in the file `electricbill.txt` (the R output is not shown here to save space).
+```{r eval=FALSE}
+read.table("Data/electricbill.txt", header=TRUE)
+```
+
+
+
+<p class="exercice">
+  **Exercise:** Using the `read.table` command, read the data in the file `electricbill.csv`, which uses a `;` as the separator between entries. You should obtain the same results as above. 
+</p>
+  
+  
+  Note that in R it's also possible to read data files in specific formats for some software, such as `.xlsx` or `csv` (Excel), `.sav` (SPSS), `.sas7bdat` (SAS), etc... There exist functions similar to `read.table` which are in specific libraries (need to be installed), such as `read.sas7bdat` (`sas7bdat` library), `read.csv`, `read.spss` (`foreign` library), `read.xlsx` (`xlsx` library). We won't go through the details of each of these functions here, but you can consult the documentation in the corresponding help files. 
+  
+Using the `read.table` command, we were able to read the data file in R. However, these data were only read; the data are still not available / saved in R in such a way that we can use the data again later. One way to proceed is to assign the contents of the data file to an R object which will be saved - this object will be of the `dataframe` type by default. Here is an example of how to do this:
+
+
+```{r}
+# Save the contents of the read.table command in an object called "mydata" (you can call the data whatever you like)
+mydata=read.table("Data/electricbill.txt", header=TRUE)
+```
+ Now the contents of the `read.table` statement will be saved in an R object called `mydata`. 
+
+
+<p class="exercice">
+**Exercise:** Verify that the object `mydata` does indeed appear in the "Environment" window in R studio (top right). Within this window, you can also see the number of rows and columns of the `mydata` object. 
+</p>
+  
+  To display the contents of the `mydata` object in the R console, you can simply type the name of the object (R output is not shown here to save space...): 
+```{r eval=FALSE}
+mydata
+```
+
+If you only want to have an overview of the `mydata` object and display only the first 6 rows (instead of displaying the entire contents), you can use the `str` or `head` functions, which are very handy commands: 
+```{r}
+str(mydata)
+head(mydata)
+```
+
+ There are other functions which also allow to obtain certain information on a dataframe, such as `nrow` (which gives the number of rows) and `ncol` (which gives the number of columns):
+```{r}
+nrow(mydata)
+ncol(mydata)
+```
+
+ We can also access specific entries (for a given row/column) of a dataframe using the `[]` brackets, similar to what we saw for matrices: 
+```{r}
+# Display element [2,3] (i.e., line 2 column 3) of the dataframe 
+mydata[2,3]
+# Display the first row
+mydata[1,]
+# Display the first 6 entries of the 3rd column
+head(mydata[,3])
+```
+                           
+Since only the columns of this dataset have names, we can directly access the columns using the column (variable) names as follows: 
+```{r}
+# 2nd column, i.e. YEAR
+head(mydata$YEAR)
+```
+
+
+ Up to now, we've only seen how to display values from the data (the entire dataset, certain rows/columns, etc.), but these values were not saved in R. If we want to save specific values for future use, we would have to assign these values to a new object, for example: 
+```{r}
+# Save the 5th column of mydata to an object called toto
+toto=mydata[,5]
+# Display the contents of toto (first 6 elements only)
+head(toto)
+```
+
+It's also possible to save each variable (column) in a dataset to an object in R with the corresponding variable name (for example, to save the variable YEAR in an object called YEAR). This can be done automatically using the `attach` function: 
+```{r}
+attach(mydata)
+head(YEAR)
+```
+ Note: if you modify the contents of the `mydata` dataframe, you would have to re-attach the dataframe so that the changes be reflected in each of the variables created (YEAR, MONTH, BILL, etc...). 
+
+
+ The obects `YEAR`, `BILL`, etc... contain a series of values. These objects are saved as **vectors** in R. We can thus use all the vector functionalities that we previously explored, for example:  
+```{r}
+# Created a new variable YEAR2 which counts the YEAR from 1 to 10
+YEAR2=YEAR-1990
+head(YEAR2)
+
+# Convert temperature from Fahrenheit to Celsius
+TEMP.CELSIUS=(TEMP-32)/1.8
+head(TEMP.CELSIUS)
+```
+
+
+ Finally, it is possible to modify a dataframe, or create a new dataframe, from an existing dataframe. Here are some examples: 
+                             
+```{r}
+# Create a new dataframe called mydata2 which contains only the columns
+# YEAR, BILL and CONSUMPTION 
+mydata2=data.frame(YEAR=mydata$YEAR, BILL=mydata$BILL, CONSUMPTION=mydata$CONSUMPTION)
+head(mydata2)
+
+# Modify the existing mydata dataframe, adding the columns
+# TEMP.CELSIUS previously created
+mydata=data.frame(mydata,TEMP.CELSIUS=TEMP.CELSIUS)
+head(mydata)
+```
+                           
+                           
+### Types of variables, deleting objects                            
+
+Up to now, we have only worked with numerical values. In practice, there are different types of variables that can be handled in R. The most common types are numerical, factor, character strings, and logical (`TRUE` or `FALSE`). Here is an example of vectors with elements consisting of strings of characters: 
+```{r}
+sex=c("male", "female", "female", "male", "male", "female", "female")
+sex
+smoking=c("yes", "no", "no", "yes", "no", "yes", "no", "no", "yes", "no")
+smoking
+```
+
+You can also specify in R that variables are categorical by declaring them as factors: 
+```{r}
+sex.factor=as.factor(sex)
+sex.factor
+```
+
+We'll later see that it's very important to define categorical variables as such (i.e., as factors) in statistical models. We'll also revisit logical type variables later. 
+
+Finally, the `ls()` command allows to see all objects currently available in your work space in R: 
+```{r}
+ls()
+```
+
+You can delete an object (if you, for example, need to free up space), using the `rm` command, for example: 
+```{r}
+rm(a)
+ls()
+```
+
+<br>
+
+## Writing reports in R 
+
+There are several R tools which can be used to write reports which include both text, R code, R output and figures (such as the current document). The main advantage of these tools is that the text and R code are in a single file which can be compiled within RStudio, and the R output are automatically generated and included in the final report. This ensures that your **results are reproducible**.
+
+The two main tools available with RStudio are RSweave and RMarkdown. RSweave allows much better control over the quality of document editing because it is based on Latex language. One of the disadvantages is that you need to have Latex installed on your computer, and know some Latex commands to work with it. RMarkdown on the other hand is very easy to use, this is what I recommend using.
+
+For this course, you'll be required to use RMarkdown for your assignments. To use RMarkdown, you need to download three specific packages with the following code (this must be done only once):
+
+```{r eval=FALSE}
+# Instal the packages 
+install.packages("knitr")
+install.packages("rmarkdown")
+install.packages("markdown")
+
+# Load the libraries in R 
+library(knitr)
+library(rmarkdown)
+library(markdown)
+```
+
+The RMarkdown (.Rmd) file used to create the present document is also available to you. You can use this file as a starting point for creating your own documents in RMarkdown. Here are the steps to follow:
+
+* Open the `IntroR_part1_en.Rmd` file in RStudio (in the same window where you usually open .R files).
+* Clic on the `Knit` icon located in the toolbar (you can select `knit to pdf` or `knit to html` to respectively generate a pdf or html file).
+* The resulting file will open in a separate window (for html files, click on `Open in browser` to see the final finished version of the document).
+
+
+<p class="exercice">
+**Exercise:** Try it out...
+</p>
+
+<br>
+
+## Final exercise 
+
+Using RMarkdown, carry out the following:
+
+1. Read the data from the `babyboom` file in R.
+2. Display the number of columns and the number of rows in the dataset.
+3. Display the first 6 rows of the dataset.
+4. Display the first two columns of the dataset. 
+5. Display th data for the 5th baby.
+6. Create a new dataset in `dataframe` format which contains only the variables `Time`, `Sex` and `Weight`.
+7. Create a new variable which contains the birthweight in pounds, and incorporate this new variable in the dataframe created in part 6. 
+
+

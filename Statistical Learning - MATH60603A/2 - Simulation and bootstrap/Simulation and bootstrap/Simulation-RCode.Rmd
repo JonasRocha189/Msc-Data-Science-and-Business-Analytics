@@ -1,0 +1,315 @@
+---
+title: "Monte Carlo Simulations and Bootstrap"
+author: "Jean-Francois Plante"
+date: "September 2019, revised Spetember 2020"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse,verbose=FALSE)
+```
+
+## Monte Carlo Simulations: a flexible tool
+
+Monte Carlo simulations consist of generating multiple copies of a dataset to explore its potential outcomes. They may be used to assess the statistical properties of different methods, but they can also help in assessing risks, or as an alternative to hypothesis testing that is easier to explain to untrained individuals.
+
+The main advantages of a simulation are:
+
+ * you know the truth,
+ * you generate multiple repetitions,
+ * you do not need additional mathematics of complex results, you *just need* to apply your method many times and describe the results.
+ 
+Sometimes, there is an advantage in using simulations over pure mathematical results, as they tend to be easier to explain. I have used simulations in the past:
+
+ * to compare possible outcomes of a lottery as an expert witness,
+ * to drive home a message on the consequences of measurement error to non-statisticians in a research project.
+ 
+In these two cases, the simulation was superior to math derivations because they were easier to understand for the people to whom I was giving explanations. Similarly, simulations may help you in a business setting to convey some of your arguments more clearly.
+
+Monte Carlo simulations also play an important role in methodological research. While mathematical results are sometimes useful to describe the behavior of a newly proposed method for large datasets, simulations are an excellent way to describe how they behave on a finite sample.
+
+In the rest of this document, we present different examples of simulations to illustrate how they can be used.
+
+## Looking at elections and polls
+In 2012, the Quebec elections results were rather tight. According to the *Directeur général des élections*, the final scores were
+
+
+ Party	| Vote
+ -------|----------
+ PQ	    | 31.95 %
+ PLQ	  | 31.20 %
+ CAQ	  | 27.05 %
+ QS	    |  6.03 %
+ ON	    |  1.89 %
+ Others |  1.88 %
+
+
+There are often discussions about poll results and how reliable they may be. We can use simulations to evaluate different outcomes that could occur. Suppose that a pollster is able to get a perfectly random sample from the population and that individuals will answer truthfully if they vote and for whom. We generate 10,000 repetitions of a poll with 1,000 respondents to see the probability that:
+
+ a. PLQ has higher voting intentions than PQ in the poll
+ b. CAQ is first in the poll
+ c. QS is less than 2% ahead of ON (or maybe even behind them)
+
+````{r}
+  set.seed(20190927)
+  prob=c(.3195,.3120,.2705,.0603,.0189,.0188)
+  parti=c("PQ","PLQ","CAQ","QS","ON","Others")
+
+  # 10,000 repetitions of a poll with 1,000 respondents
+  # One matrix contains all the samples. Each column represents a different poll
+  # The results of the 10,000 polls are then placed in a different variable for each party
+  # Trick: the assign function allows to make an assign a value to a variable whose name itself is in a variable
+  sim=matrix(sample(parti,1000*10000,prob=prob,replace=TRUE),nrow=1000)
+  for(i in 1:6){
+    assign(parti[i],apply(sim==parti[i],2,mean))
+  }
+
+# a)
+  mean(PLQ>PQ)
+
+# b)
+  mean(CAQ>pmax(PQ,PLQ,QS,ON,Others))
+
+# c)
+  mean(QS-ON<.02)
+````
+When coding a simulation, it may be convenient to store the samples in a matrix or an array. An apply statement can then loop through all the repetitions. This is one of the easiest ways to parallelize computations -- you just need to split the repetitions over multiple cores of your computer using parallel versions of the apply statements. We will illustrate this later.
+
+Simulations may be used to evaluate different properties. Consider, for instance, the 95% margin of error that is provided in the news:
+
+$$
+\hat p \pm \frac{1.96}{2\sqrt{n}}
+$$
+What is the real coverage probability of these intervals for the different parties?
+````{r}
+# Lower and upper bounds of the 95% confidence intervals
+# Trick: the get function can recover a variable whose name is stored in another variable
+
+for(i in 1:6){
+  p=get(parti[i])
+  LB=p-1.96/2/sqrt(1000)
+  UB=p+1.96/2/sqrt(1000)
+  cat(parti[i],"\t",mean((prob[i]>=LB)&(prob[i]<=UB)),"\n")
+}
+
+````
+You may notice that the coverage rate is further away from the true value when the true proportion is close to 0. This is mostly due to an approximation in the margin of error. If that was a question of interest, we could design a simulation specifically to find confidence intervals for an event of probability $p$, with $p$ that takes values very close to 0. The same phenomenon occurs for probabilities close to 1.
+
+In this example, we use parameters from a real event (past elections) to create a scenario. This is often a good idea rather than trying to pick parameters arbitrarily from a hat. The code also makes use of functions to create and retrieve variables of a given name, which can sometimes be handy.
+
+Some of the results found so far could also be found mathematically, but some other situations can be more easily treated by simulation. For instance, political commentators often mention that:
+
+ * the vote from some party did not materialize (the voters that prefer that party did not go out to vote)
+ * for unpopular parties, people lie and do not say that they vote from them although they ultimately do
+ 
+For a political party, it could thus be interesting to run a simulation with different participation rates for different age groups, in order to measure the potential benefits of some measures they want to take (phone calls, free rides to the voting station, etc.)
+
+## The median is more robust but less efficient than the mean
+The median is known to be more robust (will not breakdown due to outliers) but less efficient than the mean. Let us consider different simulation scenarios to see what that means. To speed up calculations, we will also make those simulations in parallel.
+
+We will generate samples of $n$ random variables from different distributions. The performance of the two estimates could be compared in terms of bias and root mean squared error (RMSE). In mathematical terms, if a statistic $\hat\theta$ is used to estimate a parameter $\theta$, then
+
+ -  $\mbox{Bias}=E(\hat\theta-\theta)$,
+ - $\mbox{MSE}=E\{(\hat\theta-\theta)^2\}=Bias^2+\mbox{var}(\hat\theta)$.
+
+The RMSE, is the square root of the MSE above. It is a measure combining bias and variance. For the distributions, we will simulate:
+
+ - normal variables with mean 0 and variance 1 (ideal case for the mean)
+ - Cauchy variables centered at 0 with scale parameter 1 (tails so heavy that there is no mean -- the expectation diverges)
+ - a mixture of normal (0,1) and a contamination (effect of outliers)
+
+
+Let us first consider the ideal scenario (for the mean) of a normal. We attempt to estimate the mean (equal to 0) and set the sample size to $n=50$. We will do 1,000 repetitions. These parameters are somewhat arbitrary but reasonable. Simulation is not an exact science when it comes to picking the parameters. The number of repetitions, for instance, is often 500 or 1,000 without further explanations. In more serious simulations, the error due to the simulation is sometimes assessed and reported. In my Ph.D. thesis, for instance, I took the time to run bootstrap simulations to estimate the variance due to the simulation in all tables of my work. This confirmed to the reader that the difference observed is really due to the method and not only by chance because of too few repetitions in my simulations.
+### 
+````{r}
+n=50
+nsim=1000
+set.seed(314314)
+x=matrix(rnorm(n*nsim),nrow=n)
+
+Mean=apply(x,2,mean)
+Med=apply(x,2,median)
+
+RMSE=c(
+  mean=sqrt(mean((Mean-0)^2)),
+  med=sqrt(mean((Med-0)^2))
+)
+
+RMSE
+````
+
+The mean has a lower RMSE. What happens if the distribution has very heavy tails?
+
+````{r}
+x=matrix(rcauchy(n*nsim),nrow=n)
+
+Mean=apply(x,2,mean)
+Med=apply(x,2,median)
+
+RMSE=rbind(Normal=RMSE,
+  Cauchy=c(
+    mean=sqrt(mean((Mean-0)^2)),
+    med=sqrt(mean((Med-0)^2))
+  )
+)
+
+RMSE
+````
+While the median holds up, the mean is completely thrown off by the very large values that often occur in a Cauchy distribution.
+
+Let us now look at the robustness of both estimates when the data are contaminated, that is a proportion $\alpha$ of the data come from a different distribution that is erroneous. That contamination is made of (relatively) large values with a mean of 10 rather than a mean of zero. In the case $\alpha=0$, the mean is better (this is the normal scenario above). To show the story well, let us create a plot of the RMSE of the mean and median with different levels of contamination.
+
+````{r}
+alpha=seq(0,.35,.01)
+
+sim=function(alpha,n=50,nsim=1000){
+  x=matrix(rnorm(n*nsim,mean=sample(c(0,10),n*nsim,prob=c(1-alpha,alpha),replace=TRUE)),nrow=n)
+  c(
+    mean=sqrt(mean((apply(x,2,mean)-0)^2)),
+    med=sqrt(mean((apply(x,2,median)-0)^2))
+  ) 
+}
+
+RMSE=t(sapply(alpha,sim))
+
+plot(alpha,RMSE[,1],type='l',xlab="Proportion of contamination",ylab="RMSE")
+lines(alpha,RMSE[,2],col="red")
+legend(0,3,c("Mean","Median"),col=c("black","red"),lty=1)
+
+````
+
+We see on this plot how even a small proportion of contamination will make the median superior to the mean. This plot is showing robustness very well: robust methods typically lose some efficiency under ideal conditions, but the range of conditions under which they are reasonable is rather large.
+
+There are two key ingredients in a simulation that were very useful here:
+
+ - The fact that we know the true model.
+ - The use of repetition which allows to empirically evaluate an expectation
+
+Simulation results are often presented as long pages of numbers. Those are hard to read and often uninteresting. To convey the conclusions of a simulation efficiently, one has to think carefully of the key messages that the result hold and design a display -- tables, plots, or both -- that convey that message well. The idea is not to purposefully hide results, that would not be ethical, but to highlight the main conclusions of the exercise.
+
+When a simulation is built as a function that runs on an *apply* statement, it is straightforward to parallelize it. The parallel package allows one to run in the background multiple instances of R that can simultaneously run code for you. In the example below, I start a cluster of 12 concurrent R because my laptop has six physical cores with multi-threading -- you may change that number to fit your hardware. Let's compare the run time:
+
+````{r}
+library(parallel)
+cl=makeCluster(12)	# Initializing cluster -- my laptop has 12 cores
+clusterSetRNGStream(cl, iseed=2019)	
+system.time(parSapply(cl,alpha,sim))
+system.time(sapply(alpha,sim))
+````
+In this case, the simulation is very fast anyway, but if it were more computationally heavy, 30 minutes vs. 10 hours is a significant difference.
+
+## Simulating a regression model
+One good way to have reasonable values in a simulation is to get inspired by existing data. In the coming weeks, we will use a dataset about clients who ask for a line of credit on their house. We have some predictors at hand to predict the variable *PAID*, which indicates whether or not the clients have repaid their loans. We will use that dataset, but generate new outcomes (whether people pay or not) based on a model that we will decide. Note that the example will also use some functions and models that we will see in more detail shortly.
+
+A simulation should start from a real question and be designed for that purpose. Let us consider the following question: Does the AIC-stepwise (the *step* function in R) have the ability to correctly pick the variables that are active in a logistic regression model? Let's test it by:
+
+ - using real data to get values of $x$ -- we will keep them fixed.
+ - find our betas by fitting a logistic regression with just a subset of variables. Those betas will then be held fixed and considered to be the real model for our simulation.
+ - simulate a new *PAID* variable (the outcome) based on the logistic model.
+ - look at how often each variable is picked.
+
+The dataset on home equity involved some cleaning and preparation steps. There would be excellent questions in those steps that we could investigate with simulations, but for the benefit of this illustration, we will take the liberty to use directly the clean imputed train dataset with the additional binary markers indicating when a value was missing. 
+````{r}
+# This code reads the data. Consult the handout of the next two weeks to see additional analyses and comments
+data=read.csv("HMEQ.csv",sep=";")
+set.seed(60603)
+keep=sample(1:nrow(data))
+train=data[keep[2001:nrow(data)],]
+imputation_mean=sapply(train,mean,na.rm=TRUE)
+trainimp=train %>% 
+  mutate(MISS_MORTDUE=is.na(MORTDUE),MISS_VALUE=is.na(VALUE),MISS_YOJ=is.na(YOJ),MISS_DEROG=is.na(DEROG),
+         MISS_DELINQ=is.na(DELINQ),MISS_CLAGE=is.na(CLAGE),MISS_NINQ=is.na(NINQ),MISS_CLNO=is.na(CLNO),
+         MISS_DEBTINC=is.na(DEBTINC))
+for(i in c(1:3,6:12)){
+  trainimp[[i]][is.na(trainimp[[i]])]=imputation_mean[i]
+}
+````
+Let us suppose that the only important variables are *MORTDUE*, *MISS_MORTDUE*, *DEBTINC* and *MISS_DEBTINC*. That is, our true model will depend only on those four variables and no others. To find the actual values of the parameters for our simulation, we fit that model to the true data:
+
+````{r}
+  mod=glm(PAID~MORTDUE+MISS_MORTDUE+DEBTINC+MISS_DEBTINC,data=trainimp,family="binomial")
+  beta=mod$coefficients
+  X=trainimp %>%
+    select(MORTDUE,MISS_MORTDUE,DEBTINC,MISS_DEBTINC)
+  X=cbind(1,X)
+  X=apply(X,2,as.numeric)
+  p=exp(X%*%beta)/(1+exp(X%*%beta))
+````
+
+The logistic regression model provides a probability that each client will repay. Note the conversion of the binary variables to numeric values. It was necessary to make the explicit matrix computation possible because the *MISS_* variables were otherwise logical. Alternatively, we could also have relied on the predict function to get the values of $p$, the vector of probability that each individual repays.
+
+In a simulation, we can control data generation. If our question involved changing some properties of the covariates $X$, we would have had to build a model that allowed that. For instance, if the question was on the effect of colinearity, instead of keeping the values of $X$ fixed, we would have generated them with different magnitude of correlation. Given that we do not investigate such changes in the predictors now, we can keep the original values of $X$. Since our regression parameters are fixed, the estimated probability of paying back for all people will also remain fixed. This is why we need just a single vector $p$ for all the repetitions of this simulation.
+
+This example illustrates an important topic: efficiency in coding. When you code for a simulation, do not repeat calculations that you do not need to. Here, the probability will remain the same for all repetitions; let's compute it once rather than 1,000 times. Coding efficiently makes a very big difference when running the code multiple times. Sometimes, it may be the difference between having results quickly and being simply unable to run the simulation. For instance, the slides mention a research paper where we simulate the growth of millions of mussels. In a very early version of that project, the weight of mussels was updated daily and saved, which resulted in filling disk spaced within minutes (or technically speaking, reaching the 4BG size limit of a file on my then FAT32-formated drive). I quickly modified it to update the weights of mussels only when needed: if they get sampled, or when they die (as they then contribute to the biomass). It made the difference between not being able to run the simulation and getting (the same) answer in about an hour. 
+
+In the construction of a simulation, one challenge is to extract the information that we need. In this case, how can we keep track of the variables that are present in a way that will be later manageable? To add to our challenge, we are investigating a function that we did not build, so it is not clear, from the start, how to achieve this. "Hacking" skills may come handy here; you'll need to develop yours too. I just explored the structure of the output of the step function and found a place where the names of the variables could be found in a vector. There are also places where they are found in a chain of character describing the model, but although usable, that format would be less convenient. With R Studio, it is easy to explore the structure of an object with the "Environment" tab typically found on the upper right portion of the interface. Consulting the documentation of the function is a good idea, but pure exploration of the outputs is also valuable. Of course, such exploration is better done on just one example of data, not in the loop for 1,000 repetitions right away.
+
+One way to construct the simulation with flexibility is to build a function that contains all the steps of one repetition that we will eventually use in an apply loop. The first argument is a dummy and will not really be used.
+
+````{r}
+  onerep=function(i,data,p){
+    data$PAID=rbinom(length(p),size=1,prob=p)
+    a=glm(PAID~.-ID,data=data,family="binomial")
+    b=step(a,trace=FALSE)
+    names(data)[-c(13,14)] %in% names(b$model)
+  }
+
+  onerep(0,trainimp,p)
+````
+
+The replacement of $data$PAID$ applies only within the function, on a copy of the data. The original data will not be impacted.
+
+The plan is to run this function on multiple cores to speed things up. As mentioned before, this means that multiple instances of R will run simultaneously in the background. If the function that we pass to the apply statement requires anything that is not available in a freshly opened R console (packages, data, functions), we would need to pass it with the *clusterExport* or *clueterEvalQ* functions. In our case, since the data is passed as an argument and no special libraries are used, we can proceed directly.
+
+````{r,eval=FALSE}
+clusterSetRNGStream(cl, iseed=20190927)	# Initializing seeds
+res=parSapply(cl,1:1000,onerep,data=trainimp,p=p)
+save(res,file="SimulationResults.dat")
+````
+
+The simulation above is much longer to run and will require many minutes on a fast computer. To avoid long delays in compiling this R Markdown file, the chunk with the simulation itself has been marked with *eval=FALSE*, and the results have been saved to a file. In the next chunk, the file with results is read, and the examples continue. You should consider similar techniques when building your R Markdown or R Sweave documents for the team project.
+
+````{r}
+load("SimulationResults.dat")
+t(res[,1:10])
+````
+
+The apply function provides a structured output where the last dimension corresponds to the values on which it looped, in this case, the 1,000 repetitions. The *onerep* function that we built outputs a vector of true/false for the names of *trainimp*. We can therefore use that matrix directly to get the information we need. 
+
+Sometimes, one repetition of the simulation could output a matrix: each rep could consider multiple methods, for instance. The *array* function may be handy to untangle the dimensions of the resulting output. Personally, I prefer using apply statements rather than explicit loops as I find that they leave less place to errors, e.g., on indices of the loops.
+
+When presenting the results, thinking of the design of the output is always a good idea. Here we use a bar plot rather than a list of values because it gives an idea of the relative values of the numbers at a glimpse. If the proportions of times variables are wrongly picked were much closer to zero, such a plot would not carry as much information, and numerical values could be a must. We use color to indicate which are the active variables. This is a good choice for a talk or an online document, but a poor choice for print documents. Shades of gray (or no fill) would be a better print option. Depending on the context, it could be a good idea to put these active variables first in the plot or to place variables in decreasing order of *prop*. However, if this plot was one of many where the active variables change, then keeping the same order would have more value to convey the message. Always make your results informative but easy to digest. If you had not designed the simulation yourself, could you easily understand the message? What about others?
+
+````{r}
+prop=apply(res,1,mean)
+namevars=names(trainimp)[-c(13,14)]
+print(cbind(namevars,round(prop,3))[sort.list(prop,decreasing=TRUE),],quote=FALSE)
+barplot(prop,names=namevars,las=2,cex.names=.5,col=ifelse(namevars%in%c("MORTDUE","MISS_MORTDUE","DEBTINC","MISS_DEBTINC"),"pale green","gray"))
+````
+
+Interestingly, the stepwise model wrongly includes some variables quite often and misses *MORTDUE* and *MISS_MORTDUE* quite often as well. Further investigations could help understand under what circumstances this algorithm works well or not. Correlation between explanatory variables could be playing a role. Below, we show different displays that may be used to convey information about the correlation. Which one do you find the clearest?
+
+````{r}
+X=apply(trainimp[,-c(4,5,13,14)],2,as.numeric)
+cor(X)
+cor(X)[,c(2,10,11,19)]
+round(cor(X)[,c(2,10,11,19)]*100)
+library(corrplot)
+corrplot(cor(X), method="color")
+
+````
+
+Let me now suggest an exercise: choose a research paper that you find interesting, and read the section that has simulations. As you read, think of the following points:
+
+ * What question are we trying to answer here?
+ * What choices did the authors need to make? Are these good choices?
+ * What message is being conveyed?
+ * If I had to write this section, would I report the results the same way? How would I do it?
+ * Was the simulation designed to describe the method in a fair way, or do I get the impression that favorable scenarios were cherry-picked?
+ * If I want to use this method, what properties do I need to know? Are the simulations informative to help a user understand the method better?
+ 
+And of course, as you design your own study, keep the same questions in mind to design an informative Monte Carlo study and report it in an effective way. And as you start mastering the art of running a good simulation, I bet that it will become one of your favorite tools!

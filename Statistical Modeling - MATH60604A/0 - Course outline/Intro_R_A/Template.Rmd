@@ -1,0 +1,40 @@
+---
+title: "Assignment Template"
+author: "Juliana Schulz ID #123"
+date: "31/08/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+We can write things up easily in RMarkdown.
+
+We can also easily use some mathematical notations such as $Y$, $X_1$, $\beta_2$, $\sigma$, $\mu$. We can write equations, e.g.,
+$$
+\bar{X} = \frac{1}{n}\sum_{i=1}^n X_i
+$$
+We can also include R code:
+
+```{r cars}
+summary(cars)
+```
+
+There are different options when incorporating chunks of R code, e.g. 
+
+```{r echo=FALSE}
+summary(cars)
+```
+
+
+```{r eval=FALSE}
+summary(cars)
+```
+
+
+
