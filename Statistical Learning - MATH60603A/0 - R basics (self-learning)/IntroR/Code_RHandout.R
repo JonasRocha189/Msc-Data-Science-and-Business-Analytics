@@ -122,6 +122,17 @@ step(mreg)		# Stepwise method
 # Understand the syntax is a first step, but you also need to be able to develop solutions from scratch.
 
 
+# Using the same employees.txt file, answer the following questions.
+
+emp = read.table("Data/employees.txt")
+emp
+
+# 1. What is the total number of sales transactions for this company during the year (for all employees)? What is the total value of those sales?
+
+emp.sales <- sum($TotSales) 
+emp.sales
+
+
 
 
 
