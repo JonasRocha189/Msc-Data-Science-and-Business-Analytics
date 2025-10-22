@@ -1,0 +1,2001 @@
+"station","arrondissement","mm","jj","n_tot","n_AM","n_PM","n_rush","temp","precip_ind"
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,5,93,10,32,42,10.3,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",5,6,21,1,15,16,12.8,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,3,64,4,21,25,22.8,1
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",8,1,6,0,0,0,18.4,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",8,3,40,6,12,18,19.2,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",7,5,108,14,23,37,21.7,0
+"St-Patrick / Briand","Le Sud-Ouest",10,4,27,4,10,14,6.7,0
+"Tupper / du Fort","Ville-Marie",9,2,71,9,22,31,15.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,3,44,10,14,24,16.7,0
+"Mackay / Ste-Catherine","Ville-Marie",9,3,108,11,31,42,14.5,1
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",9,7,9,1,2,3,21.7,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",6,5,19,7,3,10,18.9,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",5,4,34,8,6,14,11.1,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",7,4,46,5,22,27,20.2,0
+"Boyer / Jean-Talon","Villeray—Saint-Michel—Parc-Extension",10,2,66,7,18,25,16.4,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",6,2,92,20,34,54,23.3,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",10,1,68,5,8,13,5.9,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",7,4,166,20,49,69,25.4,0
+"Brébeuf / Curé-Poirier","Longueuil",5,5,4,0,0,0,14.4,0
+"Atwater / Sherbrooke","Ville-Marie",10,3,50,10,6,16,9.7,0
+"St-Laurent / Joliette","Longueuil",8,6,15,0,9,9,21.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",5,5,158,9,53,62,17.4,0
+"de Chenonceau / Chomedey","Laval",5,2,7,0,2,2,21.8,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",10,6,17,1,6,7,9.9,0
+"Brittany / Ainsley","Mont-Royal",6,6,32,1,12,13,14.8,0
+"de Grenoble / de Cassis","Laval",5,7,1,0,0,0,12.1,1
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",9,6,257,12,35,47,16.4,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,2,6,1,3,4,17.9,0
+"de Grenoble / de Cassis","Laval",10,7,2,1,1,2,7.5,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",5,3,85,22,29,51,16.7,0
+"de Grenoble / de Cassis","Laval",10,5,2,0,1,1,17.1,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",6,5,23,5,3,8,18.4,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,21,0,1,1,20.1,1
+"Atwater / Sherbrooke","Ville-Marie",8,5,51,5,11,16,27.4,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",7,2,101,19,17,36,22.6,0
+"Querbes / Laurier","Outremont",7,1,66,7,16,23,20.9,0
+"Saint-Rémi / Valois","Laval",5,1,3,1,0,1,15.3,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",5,3,57,13,15,28,11.7,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",5,4,76,15,17,32,21.7,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",10,3,68,17,21,38,15.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",9,3,2,1,0,1,18.1,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,15,0,5,5,27.4,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",7,3,2,0,0,0,22.8,1
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,3,14,1,2,3,24,0
+"St-Patrick / Briand","Le Sud-Ouest",8,1,49,6,16,22,18.8,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",6,4,82,15,13,28,21.5,1
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",10,4,11,0,4,4,6.7,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",8,4,30,7,6,13,23.6,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",10,2,6,1,5,6,7,0
+"Crescent / de Maisonneuve","Ville-Marie",5,5,138,2,47,49,12.4,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",9,6,23,2,3,5,21.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",6,5,62,13,17,30,18.9,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",9,2,98,16,20,36,17.9,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,2,31,1,17,18,13.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,7,55,5,17,22,15.8,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",8,1,116,24,23,47,21.8,0
+"Aylmer / Ste-Catherine","Ville-Marie",6,1,65,1,22,23,23.7,0
+"Dollard / Bernard","Outremont",9,6,60,3,23,26,21.5,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,5,68,6,16,22,20.4,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",6,3,32,6,6,12,28.7,0
+"Irwin / Allard","LaSalle",9,2,24,7,6,13,13.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",7,6,6,0,2,2,22.2,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,4,1,1,0,1,11,0
+"Querbes / Laurier","Outremont",6,1,53,1,20,21,20.5,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,4,25,1,12,13,21.6,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",9,5,238,34,68,102,20.3,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",9,6,20,3,2,5,16.4,0
+"Tupper / du Fort","Ville-Marie",9,2,80,7,24,31,13.7,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",6,5,112,16,24,40,15.7,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",6,5,65,6,16,22,15.7,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",6,4,2,1,1,2,15,0
+"Atwater / Sherbrooke","Ville-Marie",9,4,56,8,23,31,20.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",9,6,9,0,4,4,16.4,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",8,5,64,8,14,22,27.4,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,6,173,7,40,47,14.5,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,6,2,0,0,0,20,0
+"Melville / de Maisonneuve","Westmount",5,1,74,12,10,22,21.8,1
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",8,1,41,7,15,22,18.4,0
+"Mackay / Ste-Catherine","Ville-Marie",8,2,98,14,33,47,15.5,0
+"de la Sorbonne / du Rousillon","Laval",10,7,2,1,1,2,14,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",6,3,39,8,13,21,22.3,1
+"Bélanger / des Galeries d'Anjou","Anjou",9,6,28,1,17,18,19.5,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,3,59,14,16,30,9.7,0
+"Bélanger / des Galeries d'Anjou","Anjou",5,4,21,3,8,11,21.7,0
+"St-Jacques / St-Laurent","Ville-Marie",7,1,51,1,16,17,20.9,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",9,7,140,10,32,42,10.5,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",8,4,97,26,20,46,26.8,0
+"Brébeuf / Curé-Poirier","Longueuil",10,5,8,1,4,5,17.1,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",7,1,54,13,16,29,25.3,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",10,3,23,7,6,13,6.7,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,1,117,22,23,45,17.4,1
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,5,65,13,18,31,5.7,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",9,2,170,42,44,86,17.9,0
+"de Grenoble / de Cassis","Laval",9,4,4,0,1,1,21.6,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,6,43,2,8,10,7.2,0
+"Parc Bariteau (Saint-Georges)","Longueuil",7,6,4,0,1,1,23.1,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",10,4,89,17,31,48,21.4,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,3,69,20,21,41,16.7,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",7,5,131,18,36,54,25.3,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",6,6,129,10,23,33,14.8,0
+"St-Laurent / Joliette","Longueuil",6,7,13,1,3,4,16.3,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,6,12,2,0,2,18.5,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",8,1,126,13,40,53,21.8,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",7,3,13,3,1,4,22.9,1
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",5,1,32,5,12,17,16.4,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",6,5,346,28,88,116,21.5,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",9,4,182,31,49,80,20.1,0
+"de Grenoble / de Cassis","Laval",7,4,1,0,0,0,20.7,0
+"de Côme / Jean-Talon","Saint-Léonard",8,4,22,1,9,10,16.8,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,17,2,9,11,18.1,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",9,2,13,0,5,5,15.7,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",5,5,62,3,27,30,12.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,6,19,0,3,3,20,0
+"Saint-Rémi / Valois","Laval",8,5,1,0,1,1,24.5,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",8,5,39,3,12,15,27.4,0
+"St-Patrick / Briand","Le Sud-Ouest",8,2,58,7,27,34,15.5,0
+"Bélanger / des Galeries d'Anjou","Anjou",6,6,25,0,16,16,21,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",7,2,130,22,33,55,21.8,0
+"St-Laurent / Joliette","Longueuil",6,3,17,2,6,8,28.7,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",5,5,102,8,20,28,14.4,0
+"Graham / Brookfield","Mont-Royal",8,6,34,2,9,11,22.4,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",7,2,193,35,35,70,24.8,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",7,7,11,0,0,0,19.5,0
+"Desaulniers / Marquette","Longueuil",10,2,13,3,6,9,17,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,24,2,13,15,9.4,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",10,4,118,28,31,59,21.4,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",9,1,88,26,26,52,15.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",10,3,59,3,35,38,9.7,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,7,49,5,4,9,24.7,0
+"Bélanger / des Galeries d'Anjou","Anjou",5,3,14,1,3,4,11.7,0
+"Boyer / Jean-Talon","Villeray—Saint-Michel—Parc-Extension",9,4,80,18,21,39,20.7,0
+"de Grenoble / de Cassis","Laval",5,4,3,0,2,2,18.9,0
+"Brittany / Ainsley","Mont-Royal",5,2,24,2,9,11,14.5,0
+"Melville / de Maisonneuve","Westmount",9,7,91,5,26,31,18.1,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",7,1,10,0,0,0,24.3,0
+"Bélanger / des Galeries d'Anjou","Anjou",5,4,21,1,9,10,18.9,0
+"de Chenonceau / Chomedey","Laval",10,5,2,0,2,2,12.3,0
+"Alexandre-DeSève / Ontario","Ville-Marie",9,6,115,10,10,20,15.9,1
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",5,3,44,10,9,19,10.2,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,6,29,3,8,11,20.5,0
+"St-Patrick / Briand","Le Sud-Ouest",9,3,31,10,11,21,14.5,1
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",9,5,202,28,58,86,16.6,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",8,4,82,16,21,37,16.8,0
+"Alexandre-DeSève / Ontario","Ville-Marie",9,1,126,36,28,64,15.3,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,3,143,18,31,49,24,0
+"Melville / de Maisonneuve","Westmount",6,5,65,10,7,17,18.9,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",10,6,38,2,7,9,12.5,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",10,5,7,0,4,4,10.3,0
+"Crescent / de Maisonneuve","Ville-Marie",7,1,134,2,29,31,20.9,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",10,4,64,14,13,27,7.5,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,3,40,17,13,30,9.7,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",10,6,5,1,0,1,13.9,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",8,1,11,3,2,5,17.4,1
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,5,192,27,48,75,24.5,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",9,3,19,3,7,10,19.8,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",7,3,29,5,7,12,24.8,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",10,5,5,2,1,3,12.3,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",10,5,128,27,24,51,10.3,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,2,30,3,7,10,17.7,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",6,6,38,4,1,5,19.5,0
+"St-Jacques / St-Laurent","Ville-Marie",7,4,38,0,15,15,20.2,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",8,1,198,21,35,56,18.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",9,3,74,20,24,44,21.7,0
+"Querbes / Laurier","Outremont",6,3,85,16,15,31,28.7,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",8,3,13,5,0,5,19.2,0
+"St-Laurent / Joliette","Longueuil",8,1,11,3,2,5,18.4,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,39,5,15,20,12.4,0
+"Union / Ste-Catherine","Ville-Marie",10,1,80,2,51,53,1.2,0
+"Bélanger / des Galeries d'Anjou","Anjou",9,4,28,1,15,16,21.6,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,7,10,0,5,5,24.7,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,39,6,13,19,14.2,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",9,2,29,9,9,18,17.9,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",9,1,34,6,13,19,17.8,0
+"Le Corbusier / St-Martin O","Laval",7,1,10,0,4,4,24.3,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,4,13,4,5,9,20.7,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",7,1,54,2,12,14,20.9,0
+"Crescent / de Maisonneuve","Ville-Marie",5,7,129,1,35,36,18.3,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",6,6,22,5,0,5,18.5,0
+"Le Corbusier / St-Martin O","Laval",10,1,1,0,1,1,12,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",9,3,60,19,12,31,18.1,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",10,4,4,1,2,3,14.8,0
+"St-Patrick / Briand","Le Sud-Ouest",9,6,58,3,16,19,19.5,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,6,28,4,4,8,14.5,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,3,151,28,45,73,23.8,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",10,7,50,5,11,16,7.5,0
+"Atwater / Sherbrooke","Ville-Marie",6,3,57,7,16,23,28.7,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,1,6,1,5,6,16.4,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",6,6,173,8,28,36,14.8,0
+"Dollard / Bernard","Outremont",8,5,44,8,7,15,19.7,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,4,35,3,10,13,11.1,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",10,3,4,1,0,1,16.4,0
+"Le Corbusier / St-Martin O","Laval",8,7,1,0,0,0,20.4,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",7,3,4,1,0,1,25.3,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",6,3,31,7,11,18,24.7,0
+"Brittany / Ainsley","Mont-Royal",8,6,20,1,7,8,24.3,0
+"Saint-Rémi / Valois","Laval",8,5,2,0,1,1,27.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,5,15,2,5,7,21.7,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,4,4,4,0,4,18.9,0
+"Bélanger / des Galeries d'Anjou","Anjou",9,6,14,0,4,4,21.5,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",7,4,89,15,27,42,20.2,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",8,5,93,12,19,31,24.5,0
+"Atwater / Sherbrooke","Ville-Marie",6,6,72,3,14,17,14.8,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",9,3,93,25,36,61,19.8,0
+"Brittany / Ainsley","Mont-Royal",7,1,19,1,6,7,26.2,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",10,1,1,0,0,0,5.9,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",10,6,36,1,9,10,12.5,0
+"Fullum / de Rouen","Ville-Marie",8,7,87,7,18,25,20.4,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,6,136,6,32,38,14.3,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,1,4,0,1,1,15.7,0
+"St-Patrick / Briand","Le Sud-Ouest",6,7,37,1,7,8,16.3,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",5,2,67,25,14,39,21.8,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",6,1,75,2,25,27,20.5,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",8,3,39,11,13,24,18.1,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",6,7,54,5,7,12,22.2,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",5,7,8,0,1,1,13.8,0
+"Irwin / Allard","LaSalle",8,1,14,5,0,5,17.4,1
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",5,6,28,0,9,9,14.5,0
+"Aylmer / Ste-Catherine","Ville-Marie",8,7,55,0,11,11,24.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",6,3,37,10,11,21,22.3,1
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",9,1,7,1,1,2,15.3,0
+"St-Patrick / Briand","Le Sud-Ouest",7,1,56,1,14,15,20.9,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,1,46,7,20,27,17.3,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",7,1,55,15,11,26,26.2,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",6,2,97,23,22,45,23.3,0
+"Union / Ste-Catherine","Ville-Marie",7,6,120,1,24,25,22.7,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,1,75,10,25,35,25.3,0
+"de Chenonceau / Chomedey","Laval",8,1,1,0,0,0,18.8,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,6,112,4,56,60,12.5,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",8,4,81,26,30,56,21.3,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,5,7,3,1,4,14.4,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",8,6,212,22,41,63,24.3,0
+"de Côme / Jean-Talon","Saint-Léonard",7,4,5,0,3,3,20.2,0
+"Mackay / René-Lévesque","Ville-Marie",8,4,117,19,34,53,16.8,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,63,4,17,21,24,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",5,7,49,6,6,12,18.3,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",7,2,52,12,11,23,21.8,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",10,6,3,0,2,2,7.2,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",5,3,102,25,16,41,10.2,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",10,3,3,3,0,3,16.9,0
+"Michelet / Jean-Talon","Saint-Léonard",6,6,28,4,5,9,18.5,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",6,1,18,0,8,8,20.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",6,3,86,26,19,45,24.7,0
+"de Chenonceau / Chomedey","Laval",6,1,1,0,0,0,15.2,0
+"Union / Ste-Catherine","Ville-Marie",8,5,112,2,47,49,24.5,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",8,3,48,13,14,27,14.2,1
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",5,2,45,4,17,21,17.3,0
+"Crescent / de Maisonneuve","Ville-Marie",9,2,201,9,70,79,23.1,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",9,6,276,19,51,70,21.5,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",7,5,4,0,0,0,25.3,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",8,6,38,6,7,13,21.4,0
+"Saint-Rémi / Valois","Laval",9,6,1,0,0,0,15.9,1
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",6,1,42,7,9,16,15.2,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,2,56,6,20,26,15.5,0
+"Graham / Brookfield","Mont-Royal",5,1,25,8,7,15,15.3,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,2,6,2,2,4,14.5,0
+"de Grenoble / de Cassis","Laval",9,1,6,1,0,1,13.7,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",9,5,11,1,5,6,20.1,0
+"Parc Bariteau (Saint-Georges)","Longueuil",7,7,3,1,0,1,23.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",5,3,70,25,17,42,23.8,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",8,3,74,8,19,27,18.1,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",6,4,44,13,12,25,20.2,0
+"de Chenonceau / Chomedey","Laval",7,1,5,0,0,0,20.9,0
+"Bélanger / des Galeries d'Anjou","Anjou",5,6,29,2,10,12,14.5,0
+"Desaulniers / Marquette","Longueuil",5,2,23,6,2,8,14.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,7,53,5,12,17,7.5,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",10,2,83,22,20,42,7,0
+"Melville / de Maisonneuve","Westmount",9,2,123,19,46,65,13.7,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",5,5,81,6,21,27,20.3,0
+"Mackay / Ste-Catherine","Ville-Marie",5,7,96,6,18,24,13.8,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",5,7,26,3,5,8,12.1,1
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",9,2,66,20,18,38,15.7,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",7,7,41,1,10,11,25,0
+"Brébeuf / Curé-Poirier","Longueuil",7,3,5,1,0,1,23.3,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",6,6,148,6,39,45,19.8,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",5,5,38,1,11,12,12.4,0
+"Atwater / Sherbrooke","Ville-Marie",7,3,49,9,5,14,22.8,1
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",10,6,28,3,3,6,13.9,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",6,4,90,15,22,37,27.2,0
+"Mackay / Ste-Catherine","Ville-Marie",8,3,128,15,52,67,18.1,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,1,9,2,4,6,1.2,0
+"Dollard / Bernard","Outremont",9,4,68,30,15,45,20.1,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",5,7,14,1,8,9,13.8,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",8,6,70,11,18,29,22.4,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",10,4,218,22,71,93,9.6,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",10,3,41,17,10,27,16.4,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",10,4,55,16,15,31,6.7,0
+"de la Sorbonne / du Rousillon","Laval",6,1,4,0,0,0,20.5,0
+"Union / Ste-Catherine","Ville-Marie",9,6,119,2,38,40,16.4,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",5,3,159,35,43,78,14.5,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",6,3,84,18,24,42,16.7,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",7,3,69,17,21,38,24.8,0
+"Aylmer / Ste-Catherine","Ville-Marie",8,4,80,3,46,49,16.8,0
+"St-Jacques / St-Laurent","Ville-Marie",9,5,68,5,13,18,20.3,0
+"Graham / Brookfield","Mont-Royal",7,1,28,7,5,12,20.4,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,3,8,2,2,4,22.8,1
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,1,9,1,2,3,22.1,0
+"Irwin / Allard","LaSalle",6,1,17,0,8,8,20.5,0
+"Hodge / Laperrière","Saint-Laurent",7,6,6,0,2,2,22.2,0
+"Mackay / René-Lévesque","Ville-Marie",5,5,94,10,25,35,20.3,0
+"Hodge / Laperrière","Saint-Laurent",7,5,8,0,2,2,23.2,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",6,7,50,8,10,18,20.5,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",6,1,289,31,79,110,23.4,0
+"Tupper / du Fort","Ville-Marie",7,5,83,13,17,30,21,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",10,3,42,14,6,20,15.7,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,4,50,14,11,25,27.2,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",6,5,24,2,3,5,15.7,0
+"St-Jacques / St-Laurent","Ville-Marie",7,2,48,2,22,24,22.6,0
+"Brébeuf / Curé-Poirier","Longueuil",9,2,5,4,0,4,13.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",8,1,74,24,10,34,17.4,1
+"Saint-Rémi / Valois","Laval",6,2,3,0,1,1,15,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",8,2,8,0,4,4,18.6,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,7,179,12,47,59,10.5,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",5,2,86,20,27,47,14.5,0
+"Querbes / Laurier","Outremont",10,6,90,9,17,26,13.9,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,3,133,30,33,63,9.7,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,6,9,0,1,1,21.4,0
+"de Grenoble / de Cassis","Laval",7,1,3,0,0,0,25.3,0
+"Michelet / Jean-Talon","Saint-Léonard",5,4,21,5,7,12,18.9,0
+"Mayfield / St-Martin O","Laval",6,4,4,0,2,2,15,0
+"Atwater / Sherbrooke","Ville-Marie",8,4,61,11,12,23,23.6,0
+"Parc Bariteau (Saint-Georges)","Longueuil",9,5,6,1,1,2,20.3,0
+"Alexandre-DeSève / Ontario","Ville-Marie",9,3,192,43,50,93,19.8,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",9,5,205,25,63,88,20.1,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",7,5,73,15,17,32,23.2,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",9,7,13,0,3,3,16.9,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",6,3,89,7,43,50,22.3,1
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,7,79,8,15,23,23.8,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,3,52,18,8,26,14.5,0
+"de Grenoble / de Cassis","Laval",10,6,4,1,0,1,13.9,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",9,3,211,32,66,98,14.5,1
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",7,4,79,14,23,37,20.1,0
+"Atwater / Sherbrooke","Ville-Marie",9,7,43,4,12,16,16.9,0
+"St-Patrick / Briand","Le Sud-Ouest",6,5,66,5,17,22,15.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",9,7,132,26,20,46,18.1,0
+"Mayfield / St-Martin O","Laval",9,4,7,0,2,2,18.4,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,2,5,0,2,2,17.7,0
+"de la Sorbonne / du Rousillon","Laval",9,3,8,2,1,3,18.1,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,4,94,23,26,49,14.8,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,6,70,2,21,23,14.5,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",7,3,4,3,0,3,23.3,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,2,119,15,45,60,17,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",5,6,79,2,15,17,14.3,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",6,5,65,10,17,27,18.4,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",8,3,64,5,25,30,18.1,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",10,4,58,7,18,25,6.7,0
+"Irwin / Allard","LaSalle",8,2,23,8,8,16,15.5,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",5,3,49,16,4,20,11.7,0
+"Alexandre-DeSève / Ontario","Ville-Marie",6,2,177,31,44,75,22.4,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,7,31,3,8,11,15.8,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",10,3,4,1,0,1,16.9,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",6,6,111,8,18,26,18.5,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",8,5,112,19,39,58,24.5,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",9,6,40,10,3,13,15.9,1
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,7,52,4,12,16,13.1,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",9,5,213,41,55,96,20.3,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",5,3,8,1,4,5,23.8,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,4,48,12,12,24,6.7,0
+"Dollard / Bernard","Outremont",9,7,37,0,4,4,16.9,0
+"Querbes / Laurier","Outremont",10,2,73,15,28,43,16.4,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",7,3,83,9,27,36,25.3,0
+"Mackay / Ste-Catherine","Ville-Marie",6,5,151,16,34,50,18.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,2,22,2,5,7,23.9,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",7,4,49,13,12,25,20.1,0
+"Tupper / du Fort","Ville-Marie",5,2,68,9,20,29,17.7,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,4,46,8,14,22,16.9,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",7,5,40,10,13,23,21,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",7,6,44,5,12,17,22.2,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",9,2,43,9,10,19,17.9,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",6,3,76,12,19,31,28.7,0
+"Mackay / René-Lévesque","Ville-Marie",8,7,104,9,18,27,21.5,0
+"Alexandre-DeSève / Ontario","Ville-Marie",6,6,124,7,20,27,18.5,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",9,1,186,9,61,70,13.7,0
+"Querbes / Laurier","Outremont",6,7,70,4,11,15,22.2,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",9,3,84,6,34,40,21.7,0
+"St-Laurent / Joliette","Longueuil",7,3,10,2,2,4,22.8,1
+"Atwater / Sherbrooke","Ville-Marie",10,4,59,9,19,28,21.4,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",6,1,184,36,50,86,23.4,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,52,11,16,27,24,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",6,1,91,19,20,39,23.4,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",5,6,27,3,12,15,14.3,0
+"Parc Bariteau (Saint-Georges)","Longueuil",9,2,9,0,5,5,23.1,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",10,1,139,26,46,72,17.3,0
+"Atwater / Sherbrooke","Ville-Marie",9,1,53,9,18,27,15.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,7,15,3,1,4,12.1,1
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,5,20,2,2,4,23.2,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",10,7,18,1,4,5,14,0
+"St-Jacques / St-Laurent","Ville-Marie",5,3,40,3,19,22,10.2,0
+"Brébeuf / Curé-Poirier","Longueuil",8,5,10,2,5,7,19.2,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,7,33,1,11,12,20.4,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,1,48,9,8,17,15.2,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",6,2,11,4,1,5,22.4,0
+"de Côme / Jean-Talon","Saint-Léonard",6,6,18,3,2,5,18.5,0
+"Desaulniers / Marquette","Longueuil",8,2,9,2,1,3,22,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",9,2,5,3,0,3,17.9,0
+"de Côme / Jean-Talon","Saint-Léonard",5,3,14,2,2,4,23.8,0
+"de la Sorbonne / du Rousillon","Laval",9,4,5,2,1,3,20.1,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",10,1,150,24,44,68,1.2,0
+"Irwin / Allard","LaSalle",8,5,32,3,7,10,24.5,0
+"Desaulniers / Marquette","Longueuil",9,6,15,1,3,4,16.4,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",10,7,28,0,5,5,7.5,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",10,3,199,38,56,94,16.9,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,6,321,17,84,101,19.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",7,6,40,2,8,10,22.7,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",10,7,1,0,0,0,14,0
+"Le Corbusier / St-Martin O","Laval",8,4,2,0,1,1,16.9,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,55,9,11,20,19.7,0
+"St-Patrick / Briand","Le Sud-Ouest",7,1,57,12,22,34,24.3,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,2,112,24,33,57,22,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,7,30,3,5,8,24.7,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",6,4,177,26,47,73,15,0
+"Fullum / de Rouen","Ville-Marie",10,5,77,19,10,29,5.7,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",8,6,16,0,2,2,24.3,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",7,6,203,13,38,51,22.2,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,4,45,9,9,18,23.6,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",7,6,82,6,11,17,22.2,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",8,1,10,2,0,2,18.4,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",8,5,15,0,3,3,20.1,1
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",5,3,16,4,7,11,16.7,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",9,3,32,9,7,16,18.1,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",7,1,21,5,5,10,20.4,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",10,7,30,2,6,8,13.1,0
+"Fullum / de Rouen","Ville-Marie",6,1,87,23,23,46,15.2,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",6,1,103,13,32,45,15.2,0
+"Bélanger / des Galeries d'Anjou","Anjou",10,5,22,1,10,11,10.3,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",8,2,58,22,13,35,23.9,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",8,2,7,0,5,5,23.9,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",5,6,78,12,19,31,14.5,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",10,5,73,2,29,31,17.1,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",7,7,49,1,12,13,19.5,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",7,4,30,8,5,13,20.1,0
+"Irwin / Allard","LaSalle",7,5,36,4,5,9,21.7,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",7,2,52,12,19,31,22.6,0
+"Melville / de Maisonneuve","Westmount",7,2,127,16,23,39,25.9,0
+"Melville / de Maisonneuve","Westmount",5,4,132,14,47,61,14.5,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",6,4,75,15,23,38,21.5,1
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",7,5,134,10,44,54,23.2,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",8,6,25,4,5,9,22.4,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,3,87,5,21,26,24,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,1,1,0,0,0,21.8,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",7,6,34,3,2,5,22.2,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",6,1,43,1,15,16,20.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",6,3,181,26,38,64,24.7,0
+"Brittany / Ainsley","Mont-Royal",8,4,21,2,4,6,16.8,0
+"St-Laurent / Joliette","Longueuil",7,5,14,2,5,7,21,0
+"St-Patrick / Briand","Le Sud-Ouest",5,4,29,10,10,20,11.1,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",10,1,1,0,0,0,1.2,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,1,42,1,10,11,22.1,0
+"Mackay / Ste-Catherine","Ville-Marie",5,1,153,6,24,30,22.1,0
+"Mackay / René-Lévesque","Ville-Marie",9,5,129,25,35,60,20.3,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,1,11,1,4,5,20.4,0
+"Brittany / Ainsley","Mont-Royal",7,2,20,2,6,8,22.6,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",10,1,41,14,11,25,17.3,0
+"Dollard / Bernard","Outremont",9,2,73,38,17,55,13.7,0
+"Michelet / Jean-Talon","Saint-Léonard",5,5,17,2,4,6,20.3,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",8,2,34,6,11,17,22,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,4,61,6,22,28,14.5,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",9,6,19,4,1,5,15.9,1
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",6,2,9,1,2,3,15,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",10,1,32,8,11,19,12,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,5,50,10,9,19,17.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",10,3,3,1,1,2,6.7,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",5,1,6,0,2,2,16.4,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",7,5,7,0,1,1,21,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",8,4,51,19,10,29,16.9,0
+"Parc Bariteau (Saint-Georges)","Longueuil",8,5,5,0,2,2,19.7,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",8,6,3,2,0,2,20,0
+"Melville / de Maisonneuve","Westmount",7,7,111,7,26,33,23.5,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",8,7,79,4,16,20,24.7,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",5,5,117,15,31,46,20.3,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",6,5,89,18,27,45,15.7,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",10,7,89,7,15,22,7.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,6,64,8,12,20,9.9,0
+"Mackay / René-Lévesque","Ville-Marie",6,6,108,10,22,32,14.8,0
+"Tupper / du Fort","Ville-Marie",7,6,105,13,17,30,23.1,0
+"Tupper / du Fort","Ville-Marie",7,4,62,10,23,33,20.1,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",9,5,70,25,13,38,16.6,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",6,1,11,0,3,3,15.2,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",10,1,7,1,1,2,17.3,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",10,1,9,3,4,7,1.2,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",7,3,11,0,5,5,22.8,1
+"Bélanger / des Galeries d'Anjou","Anjou",7,5,27,0,16,16,25.3,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,4,8,0,3,3,11,0
+"de la Sorbonne / du Rousillon","Laval",10,6,2,1,0,1,12.5,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",7,7,60,2,15,17,23.5,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",9,5,42,12,10,22,16.6,0
+"Crescent / de Maisonneuve","Ville-Marie",10,4,187,8,57,65,9.6,0
+"Tupper / du Fort","Ville-Marie",9,7,70,6,19,25,16.9,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",6,3,202,31,48,79,28.7,0
+"Crescent / de Maisonneuve","Ville-Marie",7,4,109,5,30,35,20.2,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",9,3,78,18,35,53,21.7,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",8,6,78,7,5,12,20,0
+"St-Jacques / St-Laurent","Ville-Marie",6,6,62,5,17,22,19.8,0
+"Tupper / du Fort","Ville-Marie",7,3,67,14,14,28,25.3,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",8,4,74,8,29,37,23.6,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",7,3,54,11,15,26,25.3,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",8,4,13,1,7,8,16.8,0
+"Crescent / de Maisonneuve","Ville-Marie",6,6,96,0,17,17,19.5,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",5,6,35,2,7,9,14.5,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",7,5,184,10,68,78,21.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",7,4,97,22,26,48,20.1,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",9,1,107,5,31,36,13.7,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",6,5,53,10,8,18,18.9,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,4,19,3,8,11,21.5,1
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",5,1,37,3,12,15,21.8,1
+"Union / Ste-Catherine","Ville-Marie",6,5,115,3,34,37,21.5,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",7,4,53,11,16,27,25.4,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",5,4,70,7,12,19,18.9,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",5,3,112,18,26,44,16.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",8,7,99,9,13,22,21.5,0
+"Atwater / Sherbrooke","Ville-Marie",10,6,15,0,4,4,9.9,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,6,77,8,9,17,21.4,0
+"Crescent / de Maisonneuve","Ville-Marie",5,6,98,2,17,19,14.3,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",9,5,110,13,27,40,20.1,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",6,7,39,5,7,12,16.3,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",6,1,148,26,34,60,23.7,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,5,85,2,35,37,12.4,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",6,6,166,19,38,57,21,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",6,6,114,7,13,20,18.5,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",9,2,6,0,5,5,23.1,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",7,5,18,4,4,8,21,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",6,1,31,7,13,20,15.2,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,4,140,10,55,65,25.4,0
+"Atwater / Sherbrooke","Ville-Marie",8,5,10,3,1,4,20.1,1
+"Tupper / du Fort","Ville-Marie",5,6,97,13,23,36,20.5,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",9,4,210,33,70,103,20.1,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",5,6,7,1,3,4,14.3,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,5,2,1,1,2,20.1,1
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",9,4,63,11,19,30,20.7,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,4,195,27,66,93,6.7,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",6,7,41,2,18,20,21.8,1
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",8,5,58,8,6,14,20.1,1
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,3,16,3,6,9,15.7,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",8,1,136,34,30,64,18.8,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",8,4,25,6,10,16,16.9,0
+"Alexandre-DeSève / Ontario","Ville-Marie",6,6,80,13,6,19,19.5,0
+"de Grenoble / de Cassis","Laval",5,7,2,0,0,0,18.3,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",8,2,82,5,36,41,22,0
+"Bélanger / des Galeries d'Anjou","Anjou",6,1,18,1,8,9,23.4,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",6,2,15,2,0,2,26.7,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",10,4,22,5,11,16,6.7,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",8,2,10,1,4,5,22,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,6,54,6,20,26,9.9,0
+"de Chenonceau / Chomedey","Laval",9,6,1,0,0,0,15.9,1
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",8,3,4,1,1,2,18.1,0
+"Mackay / Ste-Catherine","Ville-Marie",5,1,96,5,45,50,16.4,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",10,4,16,2,5,7,14.8,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,6,70,3,3,6,21.4,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",9,5,94,20,17,37,16.6,0
+"Aylmer / Ste-Catherine","Ville-Marie",9,3,79,7,42,49,19.8,0
+"de la Sorbonne / du Rousillon","Laval",9,7,3,0,1,1,21.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",6,6,131,11,26,37,21,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,5,27,3,9,12,14.2,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",8,6,95,12,25,37,22.4,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",10,4,87,20,20,40,7.5,0
+"St-Laurent / Joliette","Longueuil",5,5,12,0,3,3,14.2,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",7,3,73,6,17,23,25.3,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",7,5,55,3,34,37,23.2,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",6,5,58,5,17,22,15.7,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,2,172,36,44,80,9.4,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,61,3,19,22,24.5,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",5,2,56,14,13,27,14.5,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",9,6,16,0,2,2,16.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,30,2,13,15,19.2,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,7,7,0,0,0,23.5,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",6,4,2,0,1,1,27.2,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,3,32,13,11,24,23.8,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",7,1,77,19,16,35,20.4,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",6,3,37,10,8,18,24.7,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",9,1,227,39,73,112,22.4,0
+"de Côme / Jean-Talon","Saint-Léonard",5,2,12,1,4,5,21.8,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",8,4,70,13,22,35,16.9,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,5,116,7,27,34,17.4,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",10,6,4,0,0,0,12.5,0
+"Graham / Brookfield","Mont-Royal",6,7,17,1,3,4,21.8,1
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",9,3,41,10,12,22,14.5,1
+"Alexandre-DeSève / Ontario","Ville-Marie",8,7,111,6,15,21,21.5,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",9,7,18,4,3,7,10.5,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",10,3,114,19,19,38,15.7,0
+"Parc Bariteau (Saint-Georges)","Longueuil",7,1,5,0,1,1,26.2,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",7,6,107,8,15,23,22.7,0
+"Dollard / Bernard","Outremont",8,3,14,3,0,3,14.2,1
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,4,64,15,11,26,27.2,0
+"Brittany / Ainsley","Mont-Royal",7,1,8,0,2,2,20.9,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,95,9,31,40,18.1,0
+"Hodge / Laperrière","Saint-Laurent",10,1,2,0,0,0,5.9,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",6,3,88,8,32,40,24.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",9,5,84,4,36,40,20.4,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,4,319,41,75,116,20.7,0
+"Brittany / Ainsley","Mont-Royal",6,6,21,1,5,6,18.5,0
+"Melville / de Maisonneuve","Westmount",10,6,60,5,25,30,9.9,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",6,3,90,22,33,55,16.7,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",5,2,40,4,17,21,14.5,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",6,7,225,11,29,40,15.8,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",9,4,6,2,1,3,20.7,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",9,1,45,11,12,23,15.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,6,56,5,14,19,13.9,0
+"Brittany / Ainsley","Mont-Royal",5,6,31,0,12,12,12.8,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",9,6,13,1,5,6,16.4,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",5,7,131,6,33,39,18.3,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",10,1,8,3,2,5,17.3,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",8,7,68,2,14,16,21.5,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,5,43,10,13,23,20.4,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,4,35,7,9,16,25.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,19,2,7,9,17.4,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",7,1,79,13,24,37,20.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",9,7,47,4,7,11,10.5,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",5,4,3,0,3,3,14.5,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",7,6,23,0,6,6,23.1,0
+"Mackay / René-Lévesque","Ville-Marie",7,6,89,0,24,24,25,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",7,7,98,6,33,39,23.5,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",9,7,126,11,22,33,19,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",10,4,9,5,3,8,14.8,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,2,7,4,0,4,14.5,0
+"Melville / de Maisonneuve","Westmount",8,5,19,3,2,5,20.1,1
+"Querbes / Laurier","Outremont",5,4,105,28,25,53,14.5,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",9,1,3,0,2,2,22.4,0
+"Mayfield / St-Martin O","Laval",6,4,1,0,0,0,21.5,1
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",8,4,18,1,7,8,16.8,0
+"Tupper / du Fort","Ville-Marie",8,7,69,13,15,28,23.5,0
+"de Côme / Jean-Talon","Saint-Léonard",10,6,7,0,1,1,7.2,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",10,2,213,38,73,111,17,0
+"Hodge / Laperrière","Saint-Laurent",6,5,6,0,1,1,21.5,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",10,6,137,11,23,34,7.2,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,3,72,18,12,30,22.9,1
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",5,2,1,1,0,1,17.7,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,4,19,1,11,12,16.8,0
+"Tupper / du Fort","Ville-Marie",7,2,80,13,25,38,22.6,0
+"Mayfield / St-Martin O","Laval",6,2,6,1,1,2,22.4,0
+"de la Sorbonne / du Rousillon","Laval",9,6,2,0,0,0,19.5,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",6,4,148,34,35,69,15,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",6,5,38,5,3,8,21.5,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",9,4,181,10,70,80,18.4,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",10,1,40,5,5,10,5.9,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,6,19,3,3,6,12.8,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",9,6,56,6,4,10,15.9,1
+"Bélanger / des Galeries d'Anjou","Anjou",6,6,18,1,5,6,19.8,0
+"Atwater / Sherbrooke","Ville-Marie",6,2,48,6,14,20,26.7,0
+"Irwin / Allard","LaSalle",7,2,36,6,13,19,25.9,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,7,3,0,0,0,12.1,1
+"Mackay / Ste-Catherine","Ville-Marie",5,3,87,12,27,39,10.2,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",9,6,93,8,20,28,16.4,0
+"Irwin / Allard","LaSalle",5,6,31,1,9,10,20.5,0
+"Dollard / Bernard","Outremont",7,2,52,13,4,17,25.9,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",8,6,71,5,1,6,20,0
+"Saint-Rémi / Valois","Laval",6,2,4,0,1,1,26.7,0
+"de Chenonceau / Chomedey","Laval",5,2,2,0,1,1,14.5,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",5,5,185,11,38,49,14.4,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",6,3,49,13,9,22,22.3,1
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,2,30,1,15,16,25.9,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,3,30,0,0,0,14.5,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",9,7,52,4,10,14,18.1,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",6,3,65,6,23,29,22.3,1
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",7,2,8,1,3,4,24.8,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",8,6,51,2,6,8,20,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",10,2,70,18,15,33,7.3,0
+"Atwater / Sherbrooke","Ville-Marie",8,1,50,13,6,19,18.8,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,6,109,3,24,27,22.2,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",9,4,86,11,27,38,21.6,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,2,88,11,36,47,17.3,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",9,5,81,6,20,26,20.4,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",5,4,5,1,0,1,14.5,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",10,5,19,2,5,7,17.1,0
+"Atwater / Sherbrooke","Ville-Marie",5,4,56,8,30,38,21.7,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",8,6,151,8,18,26,20,0
+"Le Corbusier / St-Martin O","Laval",8,6,2,0,1,1,27.4,0
+"Graham / Brookfield","Mont-Royal",10,7,19,2,3,5,14,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",5,1,28,1,10,11,22.1,0
+"Fullum / de Rouen","Ville-Marie",9,2,116,35,37,72,23.1,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",7,7,72,8,11,19,25,0
+"St-Jacques / St-Laurent","Ville-Marie",7,4,69,2,24,26,25.4,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",9,7,177,9,44,53,18.1,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",8,1,78,15,23,38,18.8,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",7,1,22,1,4,5,20.9,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",9,4,27,3,10,13,20.1,0
+"Mayfield / St-Martin O","Laval",8,4,4,1,2,3,16.8,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,6,14,1,5,6,12.5,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",10,2,75,4,30,34,7.3,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,2,107,22,42,64,18.6,0
+"Michelet / Jean-Talon","Saint-Léonard",5,7,15,1,6,7,18.3,0
+"Graham / Brookfield","Mont-Royal",5,3,30,5,14,19,23.8,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,7,54,1,9,10,14,0
+"de Grenoble / de Cassis","Laval",8,6,1,1,0,1,20,0
+"Bélanger / des Galeries d'Anjou","Anjou",10,5,12,1,6,7,5.7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",7,6,271,12,60,72,23.1,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,1,59,5,13,18,13.7,0
+"Union / Ste-Catherine","Ville-Marie",10,3,52,0,24,24,15.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,1,57,16,19,35,23.4,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",8,5,26,1,8,9,27.4,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",5,1,78,20,6,26,21.8,1
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,2,47,7,10,17,23.1,0
+"Melville / de Maisonneuve","Westmount",9,7,84,10,7,17,19,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",10,4,51,4,27,31,14.8,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,6,12,1,1,2,7.2,0
+"Michelet / Jean-Talon","Saint-Léonard",7,4,25,3,9,12,20.1,0
+"Querbes / Laurier","Outremont",10,5,87,8,28,36,17.1,0
+"Mackay / René-Lévesque","Ville-Marie",9,1,83,22,23,45,15.3,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,4,180,24,65,89,23.6,0
+"Atwater / Sherbrooke","Ville-Marie",9,4,57,9,11,20,21.6,0
+"de Côme / Jean-Talon","Saint-Léonard",9,1,10,1,1,2,15.3,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",6,5,178,33,27,60,15.7,0
+"Saint-Rémi / Valois","Laval",5,4,3,0,0,0,14.5,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,7,23,0,8,8,12.1,1
+"Jean-Paul-Vincent / Adoncour","Longueuil",9,3,3,2,0,2,19.8,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",10,7,82,10,16,26,14,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",5,5,49,8,12,20,17.4,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",8,1,87,22,18,40,18.8,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",9,6,86,11,10,21,21.5,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",5,6,42,6,3,9,20.5,0
+"Bélanger / des Galeries d'Anjou","Anjou",8,2,11,0,7,7,15.5,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",7,7,27,2,4,6,19.5,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,4,30,7,11,18,14.5,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",8,6,1,0,1,1,22.4,0
+"Bélanger / des Galeries d'Anjou","Anjou",9,5,16,2,3,5,20.4,0
+"de Chenonceau / Chomedey","Laval",7,3,5,0,1,1,23.3,0
+"St-Jacques / St-Laurent","Ville-Marie",6,5,80,5,17,22,15.7,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,3,28,3,14,17,21.7,0
+"Melville / de Maisonneuve","Westmount",8,7,89,6,20,26,24.7,0
+"Graham / Brookfield","Mont-Royal",9,1,43,10,15,25,22.4,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",8,3,34,7,7,14,14.2,1
+"de Chenonceau / Chomedey","Laval",7,6,4,1,0,1,22.2,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,1,79,2,41,43,24.3,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",6,3,76,12,24,36,22.3,1
+"Hamel / Sauriol","Ahuntsic-Cartierville",5,4,25,6,9,15,21.7,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",8,3,38,9,11,20,18.1,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,27,9,6,15,7,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",6,5,79,18,18,36,18.9,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",5,3,252,21,84,105,16.7,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",7,3,48,9,16,25,23.3,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",8,7,88,4,14,18,20.4,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",8,2,33,12,7,19,15.5,0
+"Alexandre-DeSève / Ontario","Ville-Marie",10,3,147,36,21,57,15.7,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",5,2,186,44,53,97,21.8,0
+"Mackay / René-Lévesque","Ville-Marie",10,3,83,18,29,47,16.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",6,1,5,0,1,1,15.2,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",9,2,34,11,8,19,17.9,0
+"Alexandre-DeSève / Ontario","Ville-Marie",6,3,155,34,31,65,28.7,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",10,2,139,19,55,74,7.3,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",5,4,72,20,20,40,11.1,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",6,7,53,3,9,12,16.3,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",7,6,16,0,2,2,22.7,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,3,37,18,6,24,11.7,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",9,5,11,0,4,4,20.3,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",10,4,49,14,12,26,7.5,0
+"Atwater / Sherbrooke","Ville-Marie",6,4,48,6,13,19,27.2,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",10,2,16,6,2,8,7,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,2,40,10,7,17,15.7,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,20,1,5,6,19.2,0
+"Desaulniers / Marquette","Longueuil",8,4,15,4,0,4,26.8,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,5,99,26,28,54,10.3,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",7,5,5,2,0,2,23.2,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",6,7,21,2,5,7,22.2,0
+"Aylmer / Ste-Catherine","Ville-Marie",8,3,77,7,29,36,18.1,0
+"Melville / de Maisonneuve","Westmount",8,2,105,9,40,49,15.5,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,7,21,3,1,4,23.8,0
+"Brittany / Ainsley","Mont-Royal",9,6,20,0,0,0,15.9,1
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",10,7,19,2,4,6,13.1,0
+"St-Patrick / Briand","Le Sud-Ouest",5,7,40,3,13,16,13.8,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,4,72,18,23,41,7.5,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",10,7,23,0,9,9,13.1,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",5,7,56,0,14,14,20.4,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",10,3,52,12,7,19,16.9,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",9,5,28,5,8,13,20.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",10,1,47,20,10,30,12,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",8,1,1,0,0,0,21.8,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",9,2,64,23,19,42,23.1,0
+"de Côme / Jean-Talon","Saint-Léonard",7,1,18,2,3,5,26.2,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,59,4,11,15,14.4,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",9,4,6,2,2,4,18.4,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",7,2,27,8,4,12,25.9,0
+"Querbes / Laurier","Outremont",6,6,57,10,8,18,19.5,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",9,4,18,1,9,10,21.6,0
+"Desaulniers / Marquette","Longueuil",7,1,11,0,3,3,20.9,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",8,2,5,0,2,2,15.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",8,1,85,21,20,41,17.4,1
+"Union / Ste-Catherine","Ville-Marie",5,4,95,3,58,61,11,0
+"Brittany / Ainsley","Mont-Royal",5,3,16,2,6,8,16.7,0
+"Melville / de Maisonneuve","Westmount",10,3,68,15,10,25,9.7,0
+"Alexandre-DeSève / Ontario","Ville-Marie",9,7,115,9,17,26,21.7,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",8,7,90,13,11,24,21.5,0
+"Querbes / Laurier","Outremont",9,4,98,20,29,49,21.6,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,2,2,1,0,1,23.9,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,3,36,8,5,13,15.7,0
+"St-Jacques / St-Laurent","Ville-Marie",5,3,44,2,15,17,16.7,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",7,1,78,14,24,38,26.2,0
+"Tupper / du Fort","Ville-Marie",6,2,84,10,18,28,26.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",6,4,112,14,24,38,27.2,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",9,3,71,11,22,33,14.5,1
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,3,16,2,5,7,22.9,1
+"Aylmer / Ste-Catherine","Ville-Marie",9,2,92,7,44,51,15.7,0
+"St-Laurent / Joliette","Longueuil",9,1,14,3,4,7,15.7,0
+"St-Laurent / Joliette","Longueuil",8,4,16,2,4,6,23.6,0
+"Aylmer / Ste-Catherine","Ville-Marie",7,7,25,1,7,8,19.5,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,6,13,1,4,5,22.7,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",9,3,42,8,13,21,14.5,1
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",9,5,239,47,62,109,20.4,0
+"Brébeuf / Curé-Poirier","Longueuil",10,4,4,1,1,2,7.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",5,2,71,19,19,38,14.5,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",7,1,15,0,3,3,20.9,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",6,5,75,5,30,35,21.5,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,1,93,5,35,40,20.4,0
+"Tupper / du Fort","Ville-Marie",8,5,96,12,18,30,19.2,0
+"Mackay / Ste-Catherine","Ville-Marie",8,5,113,8,24,32,19.7,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",5,7,99,9,18,27,20.4,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,4,3,3,0,3,26.8,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",9,1,72,16,24,40,17.8,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",5,5,19,1,5,6,20.3,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,6,1,0,0,0,14.3,0
+"de Chenonceau / Chomedey","Laval",9,4,1,1,0,1,20.1,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,18,3,4,7,12.4,0
+"Brébeuf / Curé-Poirier","Longueuil",10,3,7,2,0,2,15.7,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",7,3,114,13,28,41,23.3,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",5,4,26,8,3,11,11.1,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",9,3,106,23,42,65,18.1,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",10,2,1,1,0,1,7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,1,239,21,82,103,17.8,0
+"St-Patrick / Briand","Le Sud-Ouest",10,6,22,1,7,8,9.9,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,2,5,0,2,2,15.5,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",5,5,156,18,41,59,20.3,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",5,7,41,2,8,10,18.3,0
+"Le Corbusier / St-Martin O","Laval",9,3,3,0,1,1,19.8,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",8,3,102,24,18,42,24,0
+"Mayfield / St-Martin O","Laval",5,4,3,0,2,2,18.9,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",8,3,1,1,0,1,18.1,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,5,29,2,3,5,20.1,1
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",9,1,215,51,64,115,15.7,0
+"Union / Ste-Catherine","Ville-Marie",7,7,127,1,23,24,23.5,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,3,5,1,1,2,25.3,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,1,88,8,29,37,18.8,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,5,52,12,13,25,12.3,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",5,2,3,0,1,1,17.3,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,7,10,0,2,2,25,0
+"de Grenoble / de Cassis","Laval",10,4,4,0,1,1,21.4,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",5,7,95,3,8,11,12.1,1
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,1,46,10,7,17,21.8,0
+"de Grenoble / de Cassis","Laval",6,3,5,0,1,1,24.7,0
+"Dollard / Bernard","Outremont",9,2,59,11,19,30,17.9,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",8,3,175,18,53,71,18.1,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",8,7,63,5,15,20,23.5,0
+"Brittany / Ainsley","Mont-Royal",6,7,27,0,11,11,15.8,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",7,7,123,5,33,38,19.5,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",6,7,5,0,1,1,15.8,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",8,6,36,3,6,9,21.4,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",8,4,20,1,11,12,23.6,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,1,82,19,25,44,17.3,0
+"de Chenonceau / Chomedey","Laval",9,7,3,1,0,1,19,0
+"de Chenonceau / Chomedey","Laval",5,2,3,0,1,1,17.3,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",8,3,79,12,24,36,18.1,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",7,6,58,0,7,7,23.1,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",6,1,107,13,19,32,23.7,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",7,6,32,6,9,15,23.1,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",10,2,4,2,0,2,7,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",5,6,177,9,60,69,14.5,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",10,3,13,7,3,10,16.4,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",9,7,152,8,46,54,16.9,0
+"Saint-Rémi / Valois","Laval",6,6,4,0,1,1,14.8,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",9,4,41,11,12,23,20.1,0
+"Saint-Rémi / Valois","Laval",6,2,5,0,2,2,23.3,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",6,7,3,0,0,0,16.3,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",6,6,170,15,35,50,14.8,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",6,7,3,0,1,1,21.8,1
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",10,5,33,4,4,8,5.7,0
+"Mackay / René-Lévesque","Ville-Marie",9,5,115,22,31,53,20.1,0
+"Mackay / René-Lévesque","Ville-Marie",10,7,83,4,16,20,14,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",6,7,17,1,4,5,15.8,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",7,2,4,1,1,2,25.9,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",9,2,120,30,33,63,15.7,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",6,7,56,4,10,14,20.5,0
+"Graham / Brookfield","Mont-Royal",8,2,46,10,9,19,22,0
+"Desaulniers / Marquette","Longueuil",8,1,6,3,2,5,18.8,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",7,5,22,5,4,9,23.2,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,6,21,5,8,13,12.5,0
+"Michelet / Jean-Talon","Saint-Léonard",9,1,18,5,2,7,15.3,0
+"St-Laurent / Joliette","Longueuil",8,5,22,1,5,6,27.4,0
+"St-Laurent / Joliette","Longueuil",5,7,5,1,0,1,12.1,1
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",6,6,70,9,8,17,18.5,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",5,2,51,17,10,27,21.8,0
+"Brébeuf / Curé-Poirier","Longueuil",8,2,9,4,0,4,23.9,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",6,5,76,8,18,26,15.7,0
+"Fullum / de Rouen","Ville-Marie",10,2,85,26,23,49,17,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",6,3,6,1,1,2,24.7,0
+"St-Patrick / Briand","Le Sud-Ouest",10,5,32,8,8,16,12.3,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",8,2,70,17,22,39,23.9,0
+"Dollard / Bernard","Outremont",10,6,52,1,19,20,12.5,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",6,1,4,0,2,2,20.5,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",7,1,36,9,14,23,24.3,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",6,2,20,3,6,9,22.4,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,5,21,4,9,13,17.4,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",10,3,177,26,39,65,15.7,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",9,4,172,11,69,80,18.4,0
+"Brittany / Ainsley","Mont-Royal",6,2,31,2,15,17,22.4,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",6,4,113,16,35,51,15,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,4,6,3,0,3,21.3,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",8,5,13,3,3,6,24.5,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,3,54,16,12,28,16.9,0
+"Melville / de Maisonneuve","Westmount",6,1,104,8,34,42,23.7,0
+"Irwin / Allard","LaSalle",8,1,43,7,16,23,21.8,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",9,5,3,0,2,2,20.3,0
+"Parc Bariteau (Saint-Georges)","Longueuil",6,3,4,0,2,2,16.7,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",7,1,78,15,15,30,20.4,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",7,2,18,1,10,11,25.9,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",8,6,118,16,19,35,27.4,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",7,2,61,7,23,30,22.6,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",7,1,38,10,8,18,25.3,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",8,3,238,18,84,102,19.2,0
+"Michelet / Jean-Talon","Saint-Léonard",9,3,32,3,12,15,18.1,0
+"Mackay / Ste-Catherine","Ville-Marie",10,2,79,8,31,39,7.3,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,4,6,0,1,1,20.2,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",6,6,137,8,21,29,19.5,0
+"de Chenonceau / Chomedey","Laval",7,3,1,0,0,0,22.9,1
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,5,72,15,19,34,19.2,0
+"Le Corbusier / St-Martin O","Laval",5,1,4,0,0,0,16.4,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,2,57,14,14,28,18.6,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",9,3,1,0,1,1,14.5,1
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",7,2,62,17,14,31,25.9,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,6,87,4,9,13,20,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",8,5,7,2,1,3,27.4,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",5,1,21,6,3,9,21.8,1
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",8,5,67,15,16,31,19.2,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",9,4,13,1,4,5,20.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,6,61,10,8,18,20.5,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",5,2,18,5,8,13,14.5,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",5,3,28,5,4,9,11.7,0
+"Irwin / Allard","LaSalle",9,1,23,7,7,14,15.7,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,2,38,11,10,21,7.3,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",10,7,118,13,46,59,14,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",10,3,98,9,24,33,16.9,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,6,18,3,4,7,27.4,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,7,5,1,2,3,13.8,0
+"Mayfield / St-Martin O","Laval",9,6,1,0,0,0,21.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",7,1,42,1,15,16,20.9,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",5,2,60,15,21,36,17.3,0
+"St-Patrick / Briand","Le Sud-Ouest",6,4,65,8,19,27,15,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,6,65,5,16,21,14.8,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",9,2,6,0,4,4,15.7,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",6,7,106,7,25,32,15.8,0
+"de la Sorbonne / du Rousillon","Laval",10,5,2,1,1,2,17.1,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",8,4,61,10,14,24,16.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,2,62,10,25,35,22.4,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",6,7,89,4,18,22,20.5,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",7,1,46,5,23,28,20.4,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",10,2,54,8,24,32,17,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",6,1,55,8,15,23,23.4,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",5,3,46,15,3,18,11.7,0
+"Tupper / du Fort","Ville-Marie",7,4,68,15,15,30,20.7,0
+"Tupper / du Fort","Ville-Marie",7,1,69,13,23,36,24.3,0
+"Desaulniers / Marquette","Longueuil",6,4,14,5,5,10,21.5,1
+"Saint-Rémi / Valois","Laval",6,7,1,0,1,1,21.8,1
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,6,203,10,52,62,21.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,1,3,1,2,3,21.8,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",6,2,113,20,29,49,23.3,0
+"Mayfield / St-Martin O","Laval",9,3,5,0,3,3,14.5,1
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",6,6,11,0,3,3,18.5,0
+"St-Jacques / St-Laurent","Ville-Marie",7,3,50,4,28,32,24.8,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",9,7,47,2,7,9,18.1,0
+"Brittany / Ainsley","Mont-Royal",9,6,17,0,4,4,16.4,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",7,4,10,1,5,6,20.2,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",6,1,80,21,25,46,23.7,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",7,7,36,5,10,15,23.5,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",5,7,95,3,27,30,20.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",10,7,49,3,14,17,13.1,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",8,3,16,1,12,13,19.2,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",6,4,25,0,8,8,15,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",6,3,36,11,6,17,16.7,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,2,46,8,19,27,16.4,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",8,2,178,34,59,93,15.5,0
+"St-Patrick / Briand","Le Sud-Ouest",8,6,46,2,3,5,27.4,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,7,16,1,5,6,12.1,1
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,4,32,2,3,5,7.5,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",10,3,29,9,9,18,6.7,0
+"Atwater / Sherbrooke","Ville-Marie",7,7,51,5,19,24,23.5,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,4,89,16,23,39,18.4,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",7,1,27,6,4,10,24.3,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",6,6,19,1,5,6,14.8,0
+"Hodge / Laperrière","Saint-Laurent",9,1,11,2,3,5,22.4,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,1,115,8,13,21,20.9,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",7,4,28,11,6,17,20.1,0
+"Saint-Rémi / Valois","Laval",8,5,1,0,0,0,19.2,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",7,2,68,11,7,18,25.9,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",10,4,42,10,11,21,14.8,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",8,2,39,6,12,18,22,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",8,4,93,21,30,51,16.9,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",8,5,1,1,0,1,27.4,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",10,5,6,0,0,0,10.3,0
+"Mayfield / St-Martin O","Laval",9,2,4,0,1,1,15.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",10,6,18,0,5,5,12.5,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",9,2,4,0,2,2,17.9,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",8,2,214,20,76,96,15.5,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,1,76,5,19,24,17.8,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,5,16,2,5,7,15.7,0
+"Bélanger / des Galeries d'Anjou","Anjou",9,7,8,0,3,3,10.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",9,1,35,12,10,22,15.3,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",7,1,31,2,9,11,20.9,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",8,5,170,22,41,63,27.4,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,6,101,6,28,34,24.3,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",10,2,45,11,6,17,7,0
+"Le Corbusier / St-Martin O","Laval",10,2,6,1,0,1,9.4,0
+"Tupper / du Fort","Ville-Marie",6,3,84,11,26,37,16.7,0
+"Bélanger / des Galeries d'Anjou","Anjou",7,1,21,2,10,12,25.3,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",7,3,11,0,3,3,23.3,0
+"Dollard / Bernard","Outremont",5,7,30,1,7,8,13.8,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",6,4,38,8,9,17,21.5,1
+"Parc Bariteau (Saint-Georges)","Longueuil",8,2,1,0,1,1,15.5,0
+"Mackay / René-Lévesque","Ville-Marie",6,5,88,15,24,39,18.4,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",10,6,216,6,51,57,12.5,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",5,2,14,1,7,8,17.3,0
+"Union / Ste-Catherine","Ville-Marie",9,6,125,0,42,42,19.5,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",8,6,28,2,4,6,20,0
+"de Grenoble / de Cassis","Laval",8,4,2,0,1,1,16.9,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",5,5,58,2,15,17,14.2,0
+"Mayfield / St-Martin O","Laval",5,5,2,0,0,0,17.4,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,1,66,9,19,28,17.8,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",6,7,2,0,1,1,21.8,1
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,3,37,6,5,11,14.2,1
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",10,5,22,0,5,5,17.1,0
+"St-Laurent / Joliette","Longueuil",9,5,23,2,7,9,20.1,0
+"Hodge / Laperrière","Saint-Laurent",10,3,9,0,1,1,16.9,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",9,6,8,2,0,2,19.5,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",9,5,255,29,59,88,20.3,0
+"Union / Ste-Catherine","Ville-Marie",7,3,115,0,75,75,23.3,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",9,7,195,2,61,63,16.9,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,6,92,9,18,27,22.4,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",9,1,8,0,3,3,13.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",8,5,75,16,17,33,19.2,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",9,3,20,0,6,6,18.1,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,7,22,1,8,9,23.5,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",6,3,31,5,5,10,24.7,0
+"Fullum / de Rouen","Ville-Marie",8,4,78,22,20,42,23.6,0
+"Brébeuf / Curé-Poirier","Longueuil",10,2,8,3,3,6,17,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",7,6,79,10,15,25,22.7,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,4,4,0,1,1,26.8,0
+"Mackay / Ste-Catherine","Ville-Marie",9,1,85,7,12,19,13.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",10,5,94,13,28,41,5.7,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,3,8,0,3,3,21.7,0
+"Hodge / Laperrière","Saint-Laurent",9,3,8,2,6,8,19.8,0
+"Mackay / Ste-Catherine","Ville-Marie",7,7,106,7,20,27,23.8,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,5,56,12,16,28,12.3,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",6,2,131,25,27,52,15,0
+"Irwin / Allard","LaSalle",7,2,15,4,3,7,24.8,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",8,7,99,4,16,20,24.7,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,4,105,18,37,55,20.1,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,6,81,8,16,24,22.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,3,113,2,42,44,24.8,0
+"de Grenoble / de Cassis","Laval",10,3,2,0,1,1,9.7,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,5,32,9,12,21,20.3,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",10,2,39,18,13,31,9.4,0
+"de Grenoble / de Cassis","Laval",9,5,2,0,0,0,16.6,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",9,3,58,9,12,21,18.1,0
+"Parc Bariteau (Saint-Georges)","Longueuil",8,2,8,2,5,7,23.9,0
+"Mackay / Ste-Catherine","Ville-Marie",10,7,71,6,17,23,14,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",8,2,14,0,8,8,18.6,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,1,30,3,14,17,20.4,0
+"Le Corbusier / St-Martin O","Laval",5,7,3,0,1,1,12.1,1
+"Hamel / Sauriol","Ahuntsic-Cartierville",5,7,3,1,0,1,12.1,1
+"Hamel / Sauriol","Ahuntsic-Cartierville",8,4,14,5,4,9,23.6,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,1,4,0,3,3,21.8,0
+"Mayfield / St-Martin O","Laval",8,2,5,0,1,1,15.5,0
+"de Grenoble / de Cassis","Laval",7,7,12,0,3,3,23.8,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",7,3,63,7,28,35,23.3,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",6,1,103,20,33,53,23.4,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,4,33,1,23,24,21.3,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",9,5,30,11,9,20,16.6,0
+"St-Patrick / Briand","Le Sud-Ouest",6,3,57,10,21,31,22.3,1
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",7,7,103,6,28,34,23.8,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",5,3,4,2,0,2,11.7,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",9,5,57,6,19,25,20.3,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,2,36,9,5,14,14.5,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,1,49,15,9,24,17.3,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,1,52,2,8,10,20.9,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",7,5,12,1,0,1,21,0
+"Dollard / Bernard","Outremont",9,6,13,2,2,4,15.9,1
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,2,48,9,9,18,18.6,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",6,1,171,3,55,58,20.5,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",6,1,32,11,5,16,23.4,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",7,4,25,2,6,8,20.7,0
+"Brittany / Ainsley","Mont-Royal",10,2,15,1,3,4,9.4,0
+"Hodge / Laperrière","Saint-Laurent",7,1,11,2,4,6,24.3,0
+"Mackay / Ste-Catherine","Ville-Marie",7,1,132,9,38,47,26.2,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",7,6,32,3,13,16,22.7,0
+"Mayfield / St-Martin O","Laval",5,1,3,0,1,1,15.3,0
+"Aylmer / Ste-Catherine","Ville-Marie",7,4,102,10,38,48,25.4,0
+"Parc Bariteau (Saint-Georges)","Longueuil",8,4,3,0,0,0,23.6,0
+"Hodge / Laperrière","Saint-Laurent",6,1,6,0,3,3,20.5,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,4,23,0,12,12,18.4,0
+"Mayfield / St-Martin O","Laval",7,3,1,0,0,0,24.8,0
+"de Grenoble / de Cassis","Laval",5,3,1,0,1,1,10.2,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",7,6,15,1,6,7,23.1,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",8,1,4,3,0,3,18.4,0
+"Brittany / Ainsley","Mont-Royal",7,3,24,2,8,10,23.3,0
+"Bélanger / des Galeries d'Anjou","Anjou",6,2,19,2,11,13,26.7,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",6,2,89,23,25,48,22.4,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",6,6,74,11,4,15,19.8,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",5,6,6,1,2,3,14.5,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",5,5,166,21,48,69,12.4,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",8,7,8,0,0,0,20.4,0
+"Michelet / Jean-Talon","Saint-Léonard",9,1,14,2,0,2,13.7,0
+"Parc Bariteau (Saint-Georges)","Longueuil",8,4,6,1,4,5,26.8,0
+"de Grenoble / de Cassis","Laval",9,7,5,2,1,3,21.7,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,7,29,2,10,12,16.9,0
+"Saint-Rémi / Valois","Laval",5,4,6,0,0,0,18.9,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",10,2,182,35,49,84,17,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",6,3,203,50,44,94,28.7,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",6,3,34,7,8,15,16.7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",7,7,346,20,57,77,23.5,0
+"Querbes / Laurier","Outremont",8,2,85,20,28,48,18.6,0
+"Fullum / de Rouen","Ville-Marie",8,4,64,10,18,28,16.8,0
+"Le Corbusier / St-Martin O","Laval",6,7,2,0,2,2,15.8,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",9,1,7,1,3,4,17.8,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,36,5,11,16,14.4,0
+"Desaulniers / Marquette","Longueuil",10,4,12,3,3,6,7.5,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,6,35,4,10,14,21.4,0
+"de Grenoble / de Cassis","Laval",10,4,6,0,5,5,7.5,0
+"Le Corbusier / St-Martin O","Laval",9,2,8,1,1,2,13.7,0
+"Desaulniers / Marquette","Longueuil",5,2,8,3,0,3,17.3,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",9,4,17,0,5,5,21.6,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",8,5,109,21,23,44,19.2,0
+"de Chenonceau / Chomedey","Laval",10,2,1,0,0,0,9.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,5,3,0,0,0,27.4,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",8,5,189,21,35,56,24.5,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",7,7,3,0,1,1,23.8,0
+"Dollard / Bernard","Outremont",7,4,50,11,11,22,20.7,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",6,7,1,0,0,0,16.3,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",5,1,57,6,26,32,15.3,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",6,3,65,9,21,30,24.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",10,7,83,6,17,23,14,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",7,2,94,17,26,43,21.8,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",9,1,24,3,8,11,15.3,0
+"Melville / de Maisonneuve","Westmount",7,4,97,16,23,39,20.7,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",6,6,10,1,1,2,18.5,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",7,4,73,15,20,35,20.7,0
+"de la Sorbonne / du Rousillon","Laval",5,7,3,0,0,0,18.3,0
+"St-Jacques / St-Laurent","Ville-Marie",8,4,72,3,15,18,26.8,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",9,5,117,21,26,47,20.1,0
+"St-Jacques / St-Laurent","Ville-Marie",9,5,64,4,19,23,20.1,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,5,84,16,26,42,19.7,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",8,1,70,15,26,41,21.8,0
+"Union / Ste-Catherine","Ville-Marie",10,7,45,0,15,15,14,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",5,6,37,3,8,11,12.8,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",8,7,308,14,74,88,24.7,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",5,5,36,7,12,19,14.4,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",9,3,5,0,4,4,18.1,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",5,4,5,3,1,4,11.1,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",8,5,32,0,5,5,24.5,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",9,3,3,1,1,2,14.5,1
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",8,7,73,12,17,29,24.7,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,2,19,5,5,10,25.9,0
+"Irwin / Allard","LaSalle",10,4,14,4,2,6,6.7,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",9,7,7,0,1,1,18.1,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",10,2,83,9,24,33,7,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",6,4,15,2,0,2,20.2,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",10,1,179,14,49,63,12,0
+"Parc Bariteau (Saint-Georges)","Longueuil",10,2,2,0,0,0,7.3,0
+"Hodge / Laperrière","Saint-Laurent",5,5,6,0,2,2,17.4,0
+"Desaulniers / Marquette","Longueuil",7,3,12,1,4,5,25.3,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,3,96,21,13,34,22.9,1
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",9,5,36,12,13,25,20.3,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",7,5,29,2,8,10,25.3,0
+"Saint-Rémi / Valois","Laval",5,2,4,0,1,1,17.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,4,212,43,62,105,23.6,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",5,3,142,20,40,60,16.7,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",7,4,47,10,8,18,20.2,0
+"Mackay / René-Lévesque","Ville-Marie",9,2,106,22,30,52,17.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,5,49,7,16,23,17.4,0
+"Desaulniers / Marquette","Longueuil",5,6,22,2,3,5,20.5,0
+"Irwin / Allard","LaSalle",7,5,32,6,4,10,21,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",5,2,106,22,20,42,17.7,0
+"Brébeuf / Curé-Poirier","Longueuil",6,7,3,1,0,1,15.8,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,7,128,7,28,35,7.5,0
+"Crescent / de Maisonneuve","Ville-Marie",9,5,222,14,61,75,16.6,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",8,2,76,17,22,39,18.6,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",9,7,21,1,2,3,10.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,6,43,9,5,14,18.5,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,3,98,29,19,48,16.9,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",9,5,41,10,6,16,20.3,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,51,6,10,16,19.2,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",5,1,5,0,1,1,21.8,1
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",9,4,61,10,20,30,20.1,0
+"Union / Ste-Catherine","Ville-Marie",8,5,116,2,36,38,27.4,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",9,5,8,1,2,3,16.6,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,4,22,3,11,14,21.7,0
+"Atwater / Sherbrooke","Ville-Marie",6,2,49,8,10,18,22.4,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",10,6,4,0,0,0,12.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",7,1,158,7,24,31,20.9,0
+"Mayfield / St-Martin O","Laval",7,4,4,0,0,0,20.7,0
+"Brittany / Ainsley","Mont-Royal",8,3,22,2,5,7,18.1,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",8,6,4,0,1,1,21.4,0
+"Parc Bariteau (Saint-Georges)","Longueuil",9,7,4,0,4,4,18.1,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",6,2,170,29,54,83,15,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,1,29,9,0,9,24.3,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",7,2,17,0,8,8,25.9,0
+"Fullum / de Rouen","Ville-Marie",7,3,89,25,31,56,24.8,0
+"Union / Ste-Catherine","Ville-Marie",9,5,98,4,58,62,20.3,0
+"Fullum / de Rouen","Ville-Marie",9,1,63,10,18,28,15.7,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",6,4,79,21,19,40,27.2,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,6,45,5,5,10,7.2,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",6,4,14,4,1,5,27.2,0
+"Mackay / René-Lévesque","Ville-Marie",5,6,56,2,18,20,14.3,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",10,5,5,1,1,2,17.1,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",6,4,47,15,11,26,20.2,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,1,48,6,16,22,18.8,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,7,50,0,15,15,18.3,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",9,3,51,20,15,35,18.1,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",6,5,12,2,5,7,18.4,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",8,2,18,0,9,9,18.6,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",5,3,39,3,14,17,16.7,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",7,7,138,13,24,37,23.5,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,2,40,6,15,21,21.8,0
+"Dollard / Bernard","Outremont",10,5,70,13,12,25,10.3,0
+"Mackay / René-Lévesque","Ville-Marie",7,2,99,28,22,50,24.8,0
+"St-Jacques / St-Laurent","Ville-Marie",8,4,44,3,14,17,16.8,0
+"Alexandre-DeSève / Ontario","Ville-Marie",8,2,127,43,28,71,15.5,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",7,2,91,10,26,36,22.6,0
+"Mackay / René-Lévesque","Ville-Marie",6,3,122,16,26,42,24.7,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",9,1,22,3,4,7,13.7,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",8,7,74,4,18,22,23.5,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",8,4,9,0,5,5,26.8,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",9,7,175,5,46,51,21.7,0
+"Querbes / Laurier","Outremont",8,7,78,5,18,23,20.4,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",9,3,83,24,20,44,21.7,0
+"St-Jacques / St-Laurent","Ville-Marie",6,1,48,3,17,20,23.7,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",8,3,2,0,0,0,14.2,1
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,7,72,2,25,27,21.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",5,7,3,0,1,1,12.1,1
+"Terminus Newman (Airlie / Lafleur)","LaSalle",8,3,6,0,4,4,18.1,0
+"Hodge / Laperrière","Saint-Laurent",10,3,10,1,4,5,6.7,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",8,2,124,27,34,61,18.6,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",8,4,105,17,33,50,26.8,0
+"Mayfield / St-Martin O","Laval",10,2,1,0,0,0,16.4,0
+"Atwater / Sherbrooke","Ville-Marie",7,3,55,12,8,20,22.9,1
+"Gilford / Papineau","Le Plateau-Mont-Royal",5,3,72,16,19,35,23.8,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",6,7,29,1,4,5,20.5,0
+"Union / Ste-Catherine","Ville-Marie",8,1,104,3,66,69,18.8,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",8,3,70,7,22,29,19.2,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",9,6,45,5,7,12,21.5,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,7,60,8,11,19,13.1,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",7,6,1,1,0,1,23.1,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",5,3,95,17,37,54,10.2,0
+"Desaulniers / Marquette","Longueuil",7,3,11,2,3,5,24.8,0
+"de Côme / Jean-Talon","Saint-Léonard",8,1,6,0,1,1,18.4,0
+"Querbes / Laurier","Outremont",5,6,61,3,18,21,14.3,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",9,1,49,5,22,27,15.3,0
+"Mackay / Ste-Catherine","Ville-Marie",6,3,140,13,32,45,22.3,1
+"Le Corbusier / St-Martin O","Laval",5,5,5,0,3,3,20.3,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",8,4,5,1,1,2,16.8,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",7,2,55,12,10,22,25.9,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",5,1,61,6,11,17,22.1,0
+"St-Jacques / St-Laurent","Ville-Marie",5,3,31,2,9,11,11.7,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",9,6,66,7,13,20,19.5,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",6,7,5,0,2,2,21.8,1
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",9,3,163,31,42,73,21.7,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",10,6,48,2,6,8,9.9,0
+"St-Laurent / Joliette","Longueuil",5,1,13,3,3,6,15.3,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",7,1,35,12,4,16,26.2,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",5,3,5,4,0,4,11.7,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",5,1,21,4,7,11,15.3,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,7,87,8,15,23,13.8,0
+"Fullum / de Rouen","Ville-Marie",7,1,84,12,26,38,24.3,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",5,4,87,14,19,33,14.5,0
+"Alexandre-DeSève / Ontario","Ville-Marie",7,2,177,47,45,92,21.8,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,2,48,9,5,14,22,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",9,5,103,23,28,51,16.6,0
+"Le Corbusier / St-Martin O","Laval",9,7,3,0,1,1,18.1,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",8,3,109,5,59,64,19.2,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,4,69,8,19,27,9.6,0
+"Hutchison / Van Horne","Outremont",5,1,69,5,10,15,22.1,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,2,23,7,5,12,17.7,0
+"Le Corbusier / St-Martin O","Laval",8,7,10,1,1,2,23.5,0
+"Parc Bariteau (Saint-Georges)","Longueuil",10,2,3,0,0,0,7,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",7,5,13,3,2,5,21,0
+"Fullum / de Rouen","Ville-Marie",6,6,102,12,23,35,19.8,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",7,2,3,0,3,3,22.6,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,6,126,15,24,39,12.8,0
+"St-Jacques / St-Laurent","Ville-Marie",7,2,59,3,24,27,25.9,0
+"de Chenonceau / Chomedey","Laval",10,3,2,0,1,1,16.4,0
+"Brittany / Ainsley","Mont-Royal",5,5,28,4,8,12,14.4,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,1,127,21,18,39,18.4,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",8,2,21,6,4,10,15.5,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",10,1,30,5,10,15,12,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",6,6,19,4,5,9,19.5,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",7,4,39,13,9,22,25.4,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",7,2,20,2,4,6,22.6,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",5,7,75,9,10,19,18.3,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,3,42,9,12,21,22.3,1
+"Graham / Brookfield","Mont-Royal",6,4,36,5,11,16,15,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",6,7,4,1,0,1,22.2,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",7,7,24,2,10,12,23.8,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",8,3,71,10,21,31,14.2,1
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",7,3,100,13,18,31,25.3,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,7,99,5,27,32,14,0
+"Michelet / Jean-Talon","Saint-Léonard",5,2,12,2,5,7,17.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",9,4,90,8,44,52,20.1,0
+"Graham / Brookfield","Mont-Royal",7,3,31,7,4,11,25.3,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",8,6,25,0,11,11,21.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",8,5,194,13,53,66,19.2,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,7,52,5,11,16,10.5,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",10,1,5,1,1,2,5.9,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",5,4,9,1,2,3,18.9,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",7,2,68,12,14,26,21.8,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",6,5,96,14,23,37,18.9,0
+"Dollard / Bernard","Outremont",9,6,46,5,8,13,19.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",10,6,151,13,28,41,13.9,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",5,3,63,20,22,42,10.2,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",6,5,22,6,1,7,18.9,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",5,1,36,0,16,16,16.4,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",5,2,41,8,9,17,14.5,0
+"Aylmer / Ste-Catherine","Ville-Marie",8,1,43,4,3,7,18.4,0
+"Union / Ste-Catherine","Ville-Marie",7,6,102,1,33,34,25,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",9,4,191,24,45,69,20.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",7,1,38,5,9,14,24.3,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",10,1,1,0,1,1,17.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,5,159,14,49,63,14.4,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,1,44,16,7,23,21.8,0
+"Parc Bariteau (Saint-Georges)","Longueuil",10,7,1,0,0,0,7.5,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,4,109,15,22,37,23.6,0
+"Crescent / de Maisonneuve","Ville-Marie",10,5,221,10,66,76,17.1,0
+"Tupper / du Fort","Ville-Marie",6,5,103,13,35,48,15.7,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",5,1,56,4,26,30,16.4,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,2,49,13,16,29,9.4,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",10,4,78,25,22,47,9.6,0
+"St-Jacques / St-Laurent","Ville-Marie",7,1,61,5,23,28,20.4,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",6,5,58,9,12,21,21.5,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",5,1,50,4,16,20,22.1,0
+"Irwin / Allard","LaSalle",9,5,32,5,12,17,20.1,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",6,1,49,7,8,15,15.2,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",6,3,29,9,7,16,28.7,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",7,7,43,2,13,15,25,0
+"St-Laurent / Joliette","Longueuil",9,1,15,3,5,8,17.8,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",6,2,33,8,8,16,23.3,0
+"Tupper / du Fort","Ville-Marie",9,6,55,16,4,20,15.9,1
+"Le Corbusier / St-Martin O","Laval",10,6,2,0,0,0,12.5,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",9,5,48,5,13,18,20.1,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",9,5,80,9,3,12,20.3,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,5,23,3,5,8,20.3,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,2,39,9,8,17,23.9,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",8,6,42,2,9,11,27.4,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",7,4,24,6,8,14,20.2,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,7,46,6,7,13,7.5,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,60,6,17,23,17,0
+"Graham / Brookfield","Mont-Royal",8,2,48,13,12,25,23.9,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,2,52,13,12,25,15.5,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",7,5,15,3,3,6,25.3,0
+"Brittany / Ainsley","Mont-Royal",10,6,16,0,4,4,9.9,0
+"St-Jacques / St-Laurent","Ville-Marie",8,2,35,3,13,16,18.6,0
+"Michelet / Jean-Talon","Saint-Léonard",6,4,21,2,11,13,15,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",6,5,82,3,24,27,18.4,0
+"Crescent / de Maisonneuve","Ville-Marie",8,5,191,8,53,61,24.5,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,6,33,7,5,12,14.5,0
+"Alexandre-DeSève / Ontario","Ville-Marie",9,1,122,29,40,69,15.7,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",8,4,218,32,83,115,16.9,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,1,30,1,0,1,20.9,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",9,4,96,9,30,39,20.1,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",5,4,38,9,9,18,21.7,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",10,1,131,25,39,64,12,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",6,2,225,36,68,104,23.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",7,2,187,28,59,87,22.6,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,2,7,4,0,4,14.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",10,2,55,15,12,27,7,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",8,6,6,0,0,0,22.4,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",8,5,234,27,57,84,19.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,6,51,5,12,17,9.9,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",10,3,9,0,5,5,16.9,0
+"Le Corbusier / St-Martin O","Laval",5,4,5,0,1,1,11.1,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",9,1,53,4,12,16,13.7,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",5,3,34,5,14,19,10.2,0
+"Le Corbusier / St-Martin O","Laval",6,7,3,0,1,1,16.3,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",6,3,93,6,34,40,22.3,1
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,5,43,9,8,17,14.2,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",7,7,18,1,12,13,23.8,0
+"Crescent / de Maisonneuve","Ville-Marie",5,6,188,3,43,46,14.5,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",7,4,50,4,14,18,20.2,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,3,168,17,54,71,16.4,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,7,23,1,8,9,13.8,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",7,6,83,0,28,28,25,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",10,4,116,24,29,53,6.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,1,6,0,1,1,18.8,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",5,7,40,1,5,6,12.1,1
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",6,4,8,2,0,2,27.2,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",10,7,32,6,3,9,2.7,0
+"Le Corbusier / St-Martin O","Laval",7,2,5,0,3,3,21.8,0
+"Boyer / Jean-Talon","Villeray—Saint-Michel—Parc-Extension",10,4,94,14,27,41,21.4,0
+"de Grenoble / de Cassis","Laval",9,6,2,0,0,0,19.5,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",5,5,113,17,44,61,20.3,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,3,76,14,27,41,16.4,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",5,5,4,0,2,2,14.2,0
+"Hodge / Laperrière","Saint-Laurent",8,6,7,1,1,2,22.4,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",7,7,47,1,10,11,25,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",5,6,126,8,27,35,12.8,0
+"Le Corbusier / St-Martin O","Laval",8,2,2,0,0,0,22,0
+"Desaulniers / Marquette","Longueuil",6,6,15,1,3,4,19.8,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",6,2,197,29,63,92,23.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,2,170,19,65,84,15.5,0
+"St-Patrick / Briand","Le Sud-Ouest",8,1,34,8,4,12,18.4,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",7,6,11,1,2,3,22.7,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",6,2,47,9,7,16,22.4,0
+"Mackay / Ste-Catherine","Ville-Marie",9,2,140,15,44,59,13.7,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",10,7,3,0,3,3,7.5,0
+"Fullum / de Rouen","Ville-Marie",8,7,62,8,9,17,23.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",6,6,86,12,17,29,14.8,0
+"Desaulniers / Marquette","Longueuil",7,2,14,2,5,7,21.8,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",5,7,41,4,6,10,12.1,1
+"Saint-Rémi / Valois","Laval",9,5,2,1,0,1,20.3,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",6,5,4,2,0,2,21.5,0
+"Melville / de Maisonneuve","Westmount",8,6,95,7,30,37,22.4,0
+"Bélanger / des Galeries d'Anjou","Anjou",10,2,8,0,5,5,7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,2,308,37,102,139,15.7,0
+"Aylmer / Ste-Catherine","Ville-Marie",7,3,76,1,36,37,22.9,1
+"Alexandre-DeSève / Ontario","Ville-Marie",7,4,104,16,29,45,20.2,0
+"Tupper / du Fort","Ville-Marie",8,2,84,14,22,36,22,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",7,2,67,19,12,31,24.8,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",6,2,207,21,60,81,23.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",6,7,185,6,48,54,20.5,0
+"de Chenonceau / Chomedey","Laval",6,7,3,0,0,0,22.2,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",7,2,62,6,19,25,25.9,0
+"Alexandre-DeSève / Ontario","Ville-Marie",6,5,114,27,30,57,18.9,0
+"Atwater / Sherbrooke","Ville-Marie",8,4,47,9,16,25,16.9,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",6,7,1,0,0,0,16.3,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,4,23,2,5,7,9.6,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",8,3,165,28,38,66,18.1,0
+"St-Jacques / St-Laurent","Ville-Marie",5,6,57,3,10,13,12.8,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",7,5,150,20,38,58,23.2,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",9,2,135,16,56,72,13.7,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",10,4,32,6,7,13,9.6,0
+"Hodge / Laperrière","Saint-Laurent",10,2,7,1,0,1,7,0
+"Aylmer / Ste-Catherine","Ville-Marie",8,4,95,4,37,41,26.8,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",9,2,84,21,17,38,17.9,0
+"Fullum / de Rouen","Ville-Marie",6,5,107,22,34,56,18.4,0
+"Le Corbusier / St-Martin O","Laval",5,2,7,1,3,4,17.7,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",5,1,80,14,30,44,16.4,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",10,2,106,21,30,51,7.3,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",10,7,14,2,2,4,2.7,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,4,31,5,7,12,20.2,0
+"de Côme / Jean-Talon","Saint-Léonard",9,7,7,0,2,2,10.5,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",7,6,209,24,40,64,25,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",5,7,66,4,12,16,18.3,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",7,6,51,3,14,17,25,0
+"Fullum / de Rouen","Ville-Marie",8,5,102,19,19,38,19.7,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,1,17,5,3,8,21.8,1
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",9,5,176,11,56,67,16.6,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",8,5,1,0,0,0,20.1,1
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",6,6,126,9,13,22,19.5,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,7,14,0,4,4,19.5,0
+"Dollard / Bernard","Outremont",6,3,68,9,23,32,24.7,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",7,2,16,5,3,8,25.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",5,1,47,14,13,27,15.3,0
+"Michelet / Jean-Talon","Saint-Léonard",5,1,11,3,1,4,21.8,1
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",5,2,1,0,0,0,21.8,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",7,2,132,27,37,64,22.6,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",10,2,22,8,8,16,9.4,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",5,5,7,0,3,3,14.4,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",8,7,32,4,11,15,23.5,0
+"Irwin / Allard","LaSalle",5,1,24,5,12,17,16.4,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,6,12,0,2,2,21.5,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",6,7,9,1,5,6,22.2,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",9,3,78,9,21,30,18.1,0
+"Melville / de Maisonneuve","Westmount",7,1,101,13,38,51,20.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",6,7,309,7,93,100,20.5,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",9,7,287,8,63,71,21.7,0
+"Dollard / Bernard","Outremont",7,1,37,8,7,15,20.4,0
+"Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)","Rosemont - La Petite-Patrie",5,4,51,0,19,19,21.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",6,2,71,17,11,28,15,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",9,7,42,0,5,5,19,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,2,7,1,0,1,25.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",8,6,69,10,11,21,21.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",6,3,127,7,33,40,28.7,0
+"Michelet / Jean-Talon","Saint-Léonard",9,6,20,3,5,8,21.5,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",10,3,12,0,6,6,9.7,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",5,2,1,0,0,0,17.3,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,5,9,1,2,3,27.4,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,1,28,3,7,10,18.4,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",6,5,35,5,16,21,15.7,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",10,6,3,0,2,2,12.5,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",6,3,32,4,9,13,24.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",8,4,78,5,29,34,16.9,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",10,4,5,2,1,3,21.4,0
+"St-Patrick / Briand","Le Sud-Ouest",7,3,78,10,27,37,23.3,0
+"St-Laurent / Joliette","Longueuil",10,5,9,1,3,4,10.3,0
+"Bélanger / des Galeries d'Anjou","Anjou",5,1,22,1,11,12,22.1,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",10,3,196,27,53,80,16.9,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",8,4,143,22,32,54,26.8,0
+"St-Patrick / Briand","Le Sud-Ouest",8,7,57,1,18,19,20.4,0
+"Desaulniers / Marquette","Longueuil",5,5,11,6,3,9,14.4,0
+"Melville / de Maisonneuve","Westmount",6,6,124,9,19,28,19.8,0
+"Querbes / Laurier","Outremont",7,6,89,5,13,18,25,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,5,26,3,6,9,20.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",10,7,1,0,0,0,13.1,0
+"Boyer / Jean-Talon","Villeray—Saint-Michel—Parc-Extension",9,6,59,6,6,12,15.9,1
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",8,2,27,7,9,16,22,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",7,3,42,12,7,19,22.8,1
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,1,64,10,20,30,12,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",9,2,229,35,68,103,17.9,0
+"St-Patrick / Briand","Le Sud-Ouest",9,3,66,15,20,35,21.7,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",8,7,40,7,11,18,20.4,0
+"St-Laurent / Joliette","Longueuil",9,1,16,5,4,9,22.4,0
+"Melville / de Maisonneuve","Westmount",6,4,105,18,22,40,15,0
+"de la Sorbonne / du Rousillon","Laval",8,7,1,0,1,1,20.4,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",6,2,5,2,1,3,26.7,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,4,164,24,38,62,14.5,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",8,5,14,3,3,6,19.7,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",10,7,107,7,21,28,2.7,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",5,1,54,19,9,28,21.8,1
+"Union / Ste-Catherine","Ville-Marie",6,5,112,3,62,65,18.4,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",7,7,52,7,10,17,23.8,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",7,2,30,1,8,9,24.8,0
+"Desaulniers / Marquette","Longueuil",5,6,1,0,0,0,14.3,0
+"Irwin / Allard","LaSalle",10,4,17,4,6,10,9.6,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",9,3,44,10,16,26,21.7,0
+"Mackay / Ste-Catherine","Ville-Marie",5,7,137,5,28,33,20.4,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,1,89,15,33,48,1.2,0
+"de la Sorbonne / du Rousillon","Laval",5,5,5,2,2,4,17.4,0
+"Michelet / Jean-Talon","Saint-Léonard",10,5,16,3,1,4,10.3,0
+"Irwin / Allard","LaSalle",10,2,22,4,7,11,17,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",5,4,17,3,7,10,18.9,0
+"Brittany / Ainsley","Mont-Royal",7,4,20,1,5,6,20.1,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",7,2,83,16,17,33,21.8,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",10,5,42,2,4,6,5.7,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",6,3,74,12,22,34,24.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",8,2,67,12,21,33,22,0
+"Bélanger / des Galeries d'Anjou","Anjou",9,1,15,1,6,7,13.7,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",5,4,50,19,9,28,11.1,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",5,6,60,5,12,17,12.8,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,5,14,2,4,6,21.7,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",7,3,25,0,13,13,24.8,0
+"Brébeuf / Curé-Poirier","Longueuil",6,6,4,0,1,1,18.5,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",7,4,262,35,58,93,20.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",8,7,12,1,5,6,24.7,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",10,4,16,0,0,0,9.6,0
+"Graham / Brookfield","Mont-Royal",10,1,22,5,6,11,12,0
+"Aylmer / Ste-Catherine","Ville-Marie",9,1,65,4,24,28,15.7,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",5,3,27,4,4,8,11.7,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",6,4,15,0,5,5,20.2,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",9,5,30,7,10,17,20.1,0
+"Fullum / de Rouen","Ville-Marie",6,1,93,22,14,36,23.7,0
+"Dollard / Bernard","Outremont",6,5,66,9,11,20,21.5,0
+"Melville / de Maisonneuve","Westmount",10,3,54,8,19,27,6.7,0
+"Fullum / de Rouen","Ville-Marie",9,7,107,9,30,39,21.7,0
+"St-Jacques / St-Laurent","Ville-Marie",8,7,78,2,19,21,21.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",7,5,186,20,40,60,21.7,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",10,5,255,30,73,103,17.1,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",5,4,56,20,17,37,14.5,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",5,3,78,16,25,41,23.8,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",5,2,26,8,3,11,21.8,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",8,4,73,18,12,30,26.8,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",10,2,231,44,84,128,17,0
+"Parc Bariteau (Saint-Georges)","Longueuil",5,5,1,0,0,0,17.4,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",7,5,63,8,14,22,21.7,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",6,4,5,1,4,5,27.2,0
+"Brébeuf / Curé-Poirier","Longueuil",5,4,4,0,3,3,11,0
+"Graham / Brookfield","Mont-Royal",7,2,32,5,11,16,25.9,0
+"Michelet / Jean-Talon","Saint-Léonard",8,5,10,0,2,2,20.1,1
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",6,1,66,1,25,26,20.5,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",10,3,69,18,18,36,6.7,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",6,1,14,0,4,4,15.2,0
+"Querbes / Laurier","Outremont",6,5,88,10,25,35,15.7,0
+"Bélanger / des Galeries d'Anjou","Anjou",6,2,24,1,12,13,15,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",5,6,3,0,1,1,14.3,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",8,6,279,13,53,66,21.4,0
+"Aylmer / Ste-Catherine","Ville-Marie",10,3,71,4,20,24,15.7,0
+"Atwater / Sherbrooke","Ville-Marie",5,3,41,7,8,15,10.2,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",7,5,53,7,20,27,21,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",8,1,8,5,0,5,17.4,1
+"St-Patrick / Briand","Le Sud-Ouest",7,3,63,5,23,28,24.8,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",10,4,177,31,59,90,9.6,0
+"de Côme / Jean-Talon","Saint-Léonard",10,4,7,1,1,2,9.6,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",10,1,14,4,4,8,1.2,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,1,31,2,3,5,5.9,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",6,1,5,1,3,4,23.4,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",10,5,19,2,8,10,12.3,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",9,2,122,22,27,49,17.9,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,6,16,0,4,4,16.4,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",6,2,17,0,7,7,23.3,0
+"de Côme / Jean-Talon","Saint-Léonard",5,7,16,2,3,5,13.8,0
+"de Grenoble / de Cassis","Laval",8,5,2,0,1,1,19.2,0
+"Le Corbusier / St-Martin O","Laval",6,3,4,0,2,2,22.3,1
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",7,3,209,37,51,88,24.8,0
+"Atwater / Sherbrooke","Ville-Marie",10,3,46,9,9,18,15.7,0
+"Irwin / Allard","LaSalle",5,5,32,3,14,17,17.4,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",6,1,67,0,14,14,20.5,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",7,7,295,9,78,87,25,0
+"Dollard / Bernard","Outremont",8,5,14,1,1,2,20.1,1
+"Crescent / de Maisonneuve","Ville-Marie",5,3,159,11,58,69,23.8,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",8,7,37,3,6,9,21.5,0
+"Mayfield / St-Martin O","Laval",7,1,4,0,0,0,20.4,0
+"Hodge / Laperrière","Saint-Laurent",6,6,6,1,0,1,18.5,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",6,5,29,3,7,10,21.5,0
+"Dollard / Bernard","Outremont",6,6,47,9,10,19,18.5,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",8,4,42,11,13,24,23.6,0
+"Brébeuf / Curé-Poirier","Longueuil",5,3,3,2,0,2,10.2,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",9,7,21,2,6,8,16.9,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",9,3,112,36,24,60,19.8,0
+"Le Corbusier / St-Martin O","Laval",5,7,1,0,0,0,13.8,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,6,2,0,0,0,12.8,0
+"Fullum / de Rouen","Ville-Marie",10,4,88,25,29,54,7.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",10,1,76,16,23,39,12,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",10,1,5,1,1,2,1.2,0
+"Le Corbusier / St-Martin O","Laval",10,2,3,1,0,1,16.4,0
+"Union / Ste-Catherine","Ville-Marie",6,2,164,5,97,102,15,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",9,6,50,6,11,17,16.4,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",10,5,56,19,10,29,5.7,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",7,4,6,0,4,4,25.4,0
+"de Chenonceau / Chomedey","Laval",8,5,1,0,0,0,20.1,1
+"Mackay / Ste-Catherine","Ville-Marie",10,3,104,17,14,31,15.7,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",6,7,21,3,7,10,21.8,1
+"Irwin / Allard","LaSalle",6,6,37,9,6,15,19.8,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",6,3,151,22,34,56,28.7,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",7,3,53,28,6,34,22.8,1
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",5,4,224,27,73,100,14.5,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,3,33,4,7,11,14.2,1
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,3,84,16,23,39,24.8,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",6,1,8,0,7,7,23.4,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",6,4,31,7,1,8,21.5,1
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",10,3,38,17,8,25,6.7,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",9,5,3,0,1,1,20.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",8,4,155,23,52,75,16.8,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",10,7,37,2,14,16,2.7,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",10,2,9,0,2,2,17,0
+"Querbes / Laurier","Outremont",7,7,87,8,17,25,23.8,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",7,2,4,1,1,2,25.9,0
+"Carrefour Angrignon (Angrignon / Newman)","LaSalle",6,4,17,1,6,7,27.2,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",8,6,79,0,12,12,21.4,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",7,3,1,0,0,0,25.3,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",6,1,8,1,4,5,20.5,0
+"Querbes / Laurier","Outremont",6,5,77,11,12,23,21.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",5,7,63,7,21,28,18.3,0
+"Mayfield / St-Martin O","Laval",10,2,1,0,0,0,7,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",9,1,37,13,11,24,15.7,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,2,177,26,61,87,23.9,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",7,1,85,21,19,40,24.3,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",8,5,5,0,0,0,20.1,1
+"Bélanger / des Galeries d'Anjou","Anjou",6,1,17,1,6,7,23.7,0
+"St-Laurent / Joliette","Longueuil",10,7,21,3,4,7,13.1,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",8,1,73,18,21,39,21.8,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",5,5,22,0,8,8,17.4,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",8,6,149,15,22,37,20,0
+"St-Jacques / St-Laurent","Ville-Marie",9,1,64,4,18,22,17.8,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",7,5,79,16,18,34,21.7,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",5,1,2,0,0,0,15.3,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",5,2,61,3,16,19,17.3,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,4,162,34,42,76,14.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",6,7,50,1,13,14,22.2,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",8,7,5,2,0,2,23.5,0
+"Irwin / Allard","LaSalle",7,1,39,4,12,16,25.3,0
+"Brébeuf / Curé-Poirier","Longueuil",9,7,2,0,0,0,10.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",6,2,111,31,35,66,23.3,0
+"St-Patrick / Briand","Le Sud-Ouest",9,3,42,8,14,22,19.8,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,3,74,13,12,25,18.1,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",6,1,27,2,16,18,20.5,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",10,1,69,17,11,28,17.3,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",10,7,52,1,9,10,7.5,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",5,2,1,0,0,0,17.3,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",8,3,285,37,61,98,24,0
+"de Côme / Jean-Talon","Saint-Léonard",9,5,18,2,0,2,16.6,0
+"Michelet / Jean-Talon","Saint-Léonard",10,3,20,3,4,7,16.9,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",9,1,79,14,13,27,13.7,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",5,2,18,3,5,8,17.3,0
+"Graham / Brookfield","Mont-Royal",5,3,20,2,8,10,14.5,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",5,1,33,6,9,15,21.8,1
+"Gilford / Papineau","Le Plateau-Mont-Royal",10,2,72,18,20,38,7,0
+"Dollard / Bernard","Outremont",7,2,52,8,9,17,21.8,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",7,3,13,1,6,7,24.8,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",10,4,9,2,1,3,9.6,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",9,4,24,11,7,18,21.6,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",9,1,75,8,27,35,22.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",5,2,56,12,15,27,14.5,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,5,38,4,13,17,19.2,0
+"Dollard / Bernard","Outremont",8,1,26,10,5,15,17.4,1
+"Aylmer / Ste-Catherine","Ville-Marie",5,4,68,3,28,31,11,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,46,6,13,19,16.4,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",10,3,154,29,38,67,9.7,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",9,7,4,0,1,1,21.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",7,5,77,8,16,24,21.7,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,2,89,16,22,38,24.8,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,3,41,11,8,19,9.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,4,110,10,17,27,20.1,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",10,6,66,3,15,18,7.2,0
+"Querbes / Laurier","Outremont",6,4,89,17,23,40,15,0
+"Desaulniers / Marquette","Longueuil",9,7,4,1,1,2,10.5,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",7,1,10,0,4,4,20.4,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",10,1,18,3,6,9,1.2,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",9,4,93,15,29,44,20.7,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",6,5,182,27,60,87,18.4,0
+"Terminus Newman (Airlie / Lafleur)","LaSalle",8,2,5,0,2,2,15.5,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",5,2,17,10,4,14,17.7,0
+"Fullum / de Rouen","Ville-Marie",5,6,92,12,23,35,14.5,0
+"Tupper / du Fort","Ville-Marie",8,4,87,19,37,56,16.8,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,2,28,3,17,20,23.1,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,3,159,29,45,74,18.1,0
+"Mackay / Ste-Catherine","Ville-Marie",10,4,121,18,41,59,21.4,0
+"de Chenonceau / Chomedey","Laval",7,7,3,0,0,0,23.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",10,1,62,7,15,22,5.9,0
+"Desaulniers / Marquette","Longueuil",8,5,13,2,2,4,27.4,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",9,5,4,0,1,1,16.6,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",5,7,8,0,1,1,20.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,4,70,9,25,34,6.7,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,2,38,10,11,21,22,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,5,14,1,5,6,10.3,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",5,3,12,1,5,6,23.8,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",10,4,21,2,7,9,9.6,0
+"Michelet / Jean-Talon","Saint-Léonard",7,6,18,1,2,3,23.1,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",6,3,135,22,38,60,16.7,0
+"Parc Bariteau (Saint-Georges)","Longueuil",10,6,1,0,0,0,13.9,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",5,2,65,20,20,40,17.7,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",9,5,203,36,47,83,20.4,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,7,66,5,14,19,10.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,1,19,0,7,7,20.5,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",9,1,3,1,0,1,22.4,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",8,5,93,13,27,40,19.7,0
+"de la Sorbonne / du Rousillon","Laval",6,3,1,0,0,0,28.7,0
+"Union / Ste-Catherine","Ville-Marie",9,5,125,3,49,52,20.4,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",9,7,36,5,8,13,16.9,0
+"Fullum / de Rouen","Ville-Marie",5,7,30,2,4,6,12.1,1
+"St-Laurent / Joliette","Longueuil",6,5,11,5,2,7,18.9,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",6,1,14,1,5,6,20.5,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",7,3,59,21,10,31,22.8,1
+"St-Laurent / Joliette","Longueuil",6,1,11,0,2,2,20.5,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,7,6,0,3,3,18.3,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",8,7,219,6,69,75,23.5,0
+"Parc Bariteau (Saint-Georges)","Longueuil",8,6,6,0,1,1,27.4,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",6,4,1,1,0,1,21.5,1
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",7,3,27,10,3,13,22.9,1
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",7,2,12,0,1,1,25.9,0
+"St-Patrick / Briand","Le Sud-Ouest",9,1,41,11,16,27,17.8,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",5,4,141,16,36,52,21.7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",7,2,290,30,99,129,22.6,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",10,3,15,0,5,5,15.7,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,5,136,8,43,51,17.4,0
+"Desaulniers / Marquette","Longueuil",6,6,20,5,7,12,14.8,0
+"de Chenonceau / Chomedey","Laval",7,7,2,0,1,1,25,0
+"Mackay / René-Lévesque","Ville-Marie",5,3,62,14,14,28,11.7,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",8,5,24,4,2,6,20.1,1
+"Union / Ste-Catherine","Ville-Marie",7,5,143,3,50,53,21,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",6,7,18,0,7,7,16.3,0
+"Melville / de Maisonneuve","Westmount",7,3,77,11,14,25,25.3,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",10,5,35,5,5,10,5.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",6,7,18,1,2,3,15.8,0
+"Mayfield / St-Martin O","Laval",8,2,1,0,0,0,22,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",9,7,42,7,7,14,10.5,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",5,7,59,5,18,23,18.3,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,4,32,5,9,14,6.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",5,4,32,5,6,11,21.7,0
+"Gare du Ruisseau (Dutrisac / Henri-Bourassa)","Saint-Laurent",5,1,2,0,0,0,21.8,1
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",7,3,15,2,5,7,24.8,0
+"Brébeuf / Curé-Poirier","Longueuil",9,7,3,0,1,1,19,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",10,6,202,15,57,72,13.9,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",9,6,95,3,18,21,19.5,0
+"Brittany / Ainsley","Mont-Royal",6,3,26,1,13,14,24.7,0
+"Place du Village (St-Jean-Baptiste / Notre-Dame)","Rivière-des-Prairies - Pointe-aux-Trembles",8,1,1,0,1,1,18.8,0
+"Hamel / Sauriol","Ahuntsic-Cartierville",8,2,22,5,8,13,23.9,0
+"Saint-Rémi / Valois","Laval",6,7,3,0,2,2,22.2,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",6,1,15,0,3,3,15.2,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",9,1,46,8,16,24,15.3,0
+"Mackay / Ste-Catherine","Ville-Marie",8,6,85,3,12,15,20,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",5,5,5,0,2,2,17.4,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",9,3,31,2,9,11,19.8,0
+"Mackay / René-Lévesque","Ville-Marie",6,1,50,1,12,13,20.5,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",8,4,104,17,40,57,16.8,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",5,4,6,1,1,2,11.1,0
+"Saint-Rémi / Valois","Laval",7,1,1,0,1,1,25.3,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,3,58,10,8,18,28.7,0
+"Fullum / de Rouen","Ville-Marie",5,5,98,24,26,50,20.3,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",10,5,2,2,0,2,5.7,0
+"Cartier / Dandurand","Rosemont - La Petite-Patrie",10,6,67,8,11,19,9.9,0
+"Brittany / Ainsley","Mont-Royal",7,1,20,0,9,9,24.3,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",6,7,387,26,93,119,20.5,0
+"Alexandre-DeSève / Ontario","Ville-Marie",5,7,81,8,8,16,13.8,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",8,2,89,19,25,44,23.9,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",10,4,77,15,12,27,14.8,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,2,78,2,44,46,21.8,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",9,2,6,2,2,4,15.7,0
+"Union / Ste-Catherine","Ville-Marie",6,1,115,0,83,83,23.4,0
+"de la Sorbonne / du Rousillon","Laval",9,7,1,1,0,1,19,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",9,1,65,14,17,31,15.7,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",5,6,54,2,8,10,14.3,0
+"Louis-Hébert / Bélanger","Villeray—Saint-Michel—Parc-Extension",10,1,30,7,6,13,17.3,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",8,4,116,18,31,49,26.8,0
+"Robert-Bourassa / René-Lévesque","Ville-Marie",6,4,106,11,47,58,27.2,0
+"Alexandre-DeSève / Ontario","Ville-Marie",5,1,79,6,19,25,22.1,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",8,1,29,5,4,9,18.8,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,2,82,22,25,47,17.7,0
+"Graham / Brookfield","Mont-Royal",6,2,55,11,9,20,26.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,4,88,6,21,27,14.5,0
+"St-Laurent / Joliette","Longueuil",7,6,18,1,3,4,25,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",6,2,9,2,2,4,15,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",10,3,73,17,17,34,16.4,0
+"Hodge / Laperrière","Saint-Laurent",8,2,11,2,5,7,23.9,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",6,6,39,3,0,3,19.5,0
+"Fullum / de Rouen","Ville-Marie",5,2,85,21,31,52,14.5,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",6,3,64,21,0,21,24.7,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,5,37,8,10,18,18.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",7,5,89,15,23,38,21,0
+"St-Patrick / Briand","Le Sud-Ouest",7,3,44,7,7,14,22.8,1
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",7,4,60,8,21,29,25.4,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,39,13,8,21,16.4,0
+"Atwater / Sherbrooke","Ville-Marie",7,5,64,3,13,16,25.3,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",10,3,59,12,12,24,15.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,6,135,7,43,50,16.4,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",6,5,81,14,25,39,18.4,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",5,4,41,6,12,18,11,0
+"Mackay / Ste-Catherine","Ville-Marie",5,7,177,4,34,38,18.3,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",6,4,35,15,6,21,21.5,1
+"Le Corbusier / St-Martin O","Laval",6,7,3,0,3,3,21.8,1
+"Mayfield / St-Martin O","Laval",10,7,1,0,1,1,7.5,0
+"Henri-Julien / de Castelnau","Villeray—Saint-Michel—Parc-Extension",7,7,136,14,33,47,23.8,0
+"Aylmer / Prince-Arthur","Le Plateau-Mont-Royal",7,3,193,41,45,86,23.3,0
+"de Côme / Jean-Talon","Saint-Léonard",6,6,12,2,3,5,21,0
+"Le Corbusier / St-Martin O","Laval",10,5,6,1,2,3,17.1,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",5,3,43,6,11,17,23.8,0
+"Atwater / Sherbrooke","Ville-Marie",5,2,56,9,12,21,14.5,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",6,6,53,6,7,13,19.8,0
+"Tupper / du Fort","Ville-Marie",6,2,92,8,26,34,23.3,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",10,1,30,8,7,15,12,0
+"Brittany / Ainsley","Mont-Royal",7,3,13,4,6,10,22.8,1
+"Melville / de Maisonneuve","Westmount",7,1,90,16,30,46,24.3,0
+"Atwater / Sherbrooke","Ville-Marie",8,7,40,0,3,3,21.5,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",8,3,19,1,4,5,18.1,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",8,3,10,1,5,6,14.2,1
+"Querbes / Laurier","Outremont",6,1,94,13,27,40,23.4,0
+"Alexandre-DeSève / Ontario","Ville-Marie",8,3,144,30,35,65,19.2,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,5,93,22,32,54,5.7,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",7,6,125,4,29,33,23.1,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",10,3,18,7,3,10,15.7,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",7,4,20,5,6,11,20.1,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",9,4,146,22,49,71,20.1,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",10,3,55,12,12,24,9.7,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",8,6,109,6,28,34,21.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",6,2,70,17,16,33,23.3,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",6,4,101,18,18,36,21.5,1
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",5,2,112,35,33,68,17.7,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",9,1,37,7,7,14,22.4,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",5,1,52,6,17,23,15.3,0
+"Aylmer / Ste-Catherine","Ville-Marie",6,4,72,2,36,38,15,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,3,66,18,12,30,11.7,0
+"Querbes / Laurier","Outremont",6,2,91,23,25,48,22.4,0
+"Bélanger / des Galeries d'Anjou","Anjou",10,6,16,0,7,7,7.2,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",10,5,121,16,37,53,10.3,0
+"de Grenoble / de Cassis","Laval",9,1,1,0,0,0,22.4,0
+"Métro de la Savane (Décarie / de Sorel)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,7,7,0,0,0,21.5,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",10,2,74,19,19,38,16.4,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,5,166,10,49,59,24.5,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",8,2,141,21,35,56,15.5,0
+"Parc de la Louisiane (31e avenue / de Bellechasse)","Rosemont - La Petite-Patrie",8,3,35,2,12,14,19.2,0
+"Hodge / Laperrière","Saint-Laurent",9,1,2,1,0,1,15.7,0
+"St-Germain / Hochelaga","Mercier - Hochelaga-Maisonneuve",6,1,29,0,11,11,20.5,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",7,6,67,12,17,29,25,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",9,6,58,5,15,20,19.5,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",7,1,74,16,25,41,26.2,0
+"Parc Bariteau (Saint-Georges)","Longueuil",10,6,2,0,2,2,7.2,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",10,4,6,0,1,1,6.7,0
+"5e avenue / Rosemont","Rosemont - La Petite-Patrie",10,6,38,5,6,11,7.2,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",5,2,39,10,9,19,17.7,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",6,6,98,3,28,31,14.8,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",7,2,91,13,29,42,22.6,0
+"Brittany / Ainsley","Mont-Royal",5,3,22,2,7,9,23.8,0
+"Crescent / de Maisonneuve","Ville-Marie",7,7,189,4,38,42,23.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",10,7,45,2,6,8,13.1,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",5,5,71,10,25,35,14.2,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",10,2,160,34,47,81,16.4,0
+"Métro Jean-Talon (Berri / Jean-Talon)","Villeray—Saint-Michel—Parc-Extension",8,4,153,21,52,73,21.3,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",7,5,17,0,6,6,25.3,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",8,4,44,5,12,17,16.9,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",6,1,40,1,10,11,20.5,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",6,4,66,18,12,30,20.2,0
+"de Côme / Jean-Talon","Saint-Léonard",10,2,11,1,2,3,17,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",9,1,4,0,0,0,13.7,0
+"de Bullion / St-Joseph","Le Plateau-Mont-Royal",10,4,56,16,14,30,14.8,0
+"Michelet / Jean-Talon","Saint-Léonard",8,5,26,4,5,9,27.4,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,5,67,11,13,24,27.4,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",5,6,129,9,23,32,14.5,0
+"Saint-Rémi / Valois","Laval",8,6,2,1,1,2,21.4,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",8,3,24,5,6,11,24,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,2,33,7,5,12,21.8,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",5,7,94,5,19,24,18.3,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",9,6,203,6,54,60,16.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",9,4,150,16,41,57,21.6,0
+"Collège de Rosemont (Beaubien / 15e avenue)","Rosemont - La Petite-Patrie",5,3,51,10,7,17,23.8,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",7,7,111,2,16,18,23.5,0
+"Mackay / René-Lévesque","Ville-Marie",8,6,103,9,16,25,21.4,0
+"Métro Préfontaine (Préfontaine / Hochelaga)","Mercier - Hochelaga-Maisonneuve",9,6,85,2,22,24,16.4,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",10,2,123,23,47,70,7.3,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",5,2,43,13,11,24,17.7,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",9,1,68,3,20,23,13.7,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",6,3,99,25,22,47,28.7,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",6,7,20,0,9,9,15.8,0
+"Dollard / Bernard","Outremont",8,4,41,11,8,19,16.9,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",8,5,60,10,10,20,20.1,1
+"Irwin / Allard","LaSalle",5,3,22,7,10,17,16.7,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",8,4,64,7,17,24,26.8,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",8,3,103,16,27,43,19.2,0
+"de Chenonceau / Chomedey","Laval",9,5,1,0,1,1,20.1,0
+"St-Laurent / Joliette","Longueuil",10,5,11,1,3,4,12.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",6,7,164,6,37,43,15.8,0
+"27e avenue / Rosemont","Rosemont - La Petite-Patrie",10,1,20,4,4,8,17.3,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",8,3,4,0,1,1,24,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,7,166,7,51,58,13.1,0
+"Desaulniers / Marquette","Longueuil",10,7,4,1,2,3,2.7,0
+"Boyer / du Mont-Royal","Le Plateau-Mont-Royal",6,4,242,34,40,74,21.5,1
+"St-Laurent / Joliette","Longueuil",5,2,12,2,3,5,14.5,0
+"Louis-Hémon / Rosemont","Rosemont - La Petite-Patrie",8,2,51,14,11,25,15.5,0
+"Jean-Talon / de l'Épée","Villeray—Saint-Michel—Parc-Extension",5,4,32,6,7,13,11.1,0
+"St-Jacques / St-Laurent","Ville-Marie",7,6,48,4,8,12,22.7,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",5,6,80,4,15,19,20.5,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",5,7,45,5,5,10,13.8,0
+"Émile-Journault / de Châteaubriand","Ahuntsic-Cartierville",10,2,55,11,16,27,17,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",10,4,123,32,41,73,14.8,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",6,3,69,11,21,32,24.7,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",10,4,158,32,46,78,14.8,0
+"Mayfield / St-Martin O","Laval",5,6,2,0,1,1,20.5,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",8,5,190,21,45,66,19.2,0
+"29e avenue / St-Zotique","Rosemont - La Petite-Patrie",10,3,19,7,2,9,15.7,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",5,7,52,2,8,10,12.1,1
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",7,1,75,18,27,45,25.3,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",9,2,141,28,46,74,17.9,0
+"Centre des loisirs (Tassé / Grenet)","Saint-Laurent",6,2,16,3,3,6,23.3,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",10,6,9,0,1,1,12.5,0
+"Parc Courbertin (Valéry / Perrier)","Saint-Léonard",9,5,5,1,1,2,20.4,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",6,6,153,5,28,33,18.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",8,6,110,12,15,27,21.4,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",7,7,89,2,18,20,19.5,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",6,7,41,2,12,14,22.2,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",10,2,40,19,9,28,9.4,0
+"Boyer / Jean-Talon","Villeray—Saint-Michel—Parc-Extension",8,6,42,0,0,0,20,0
+"Graham / Brookfield","Mont-Royal",10,5,24,5,7,12,5.7,0
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",9,7,190,12,48,60,18.1,0
+"Parc Chenier (de l'Aréna / Chenier)","Anjou",8,2,13,3,4,7,18.6,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",6,7,45,6,10,16,20.5,0
+"Melville / de Maisonneuve","Westmount",5,2,105,5,36,41,14.5,0
+"Brittany / Ainsley","Mont-Royal",10,5,10,1,2,3,5.7,0
+"Bibliothèque de Verdun (Brown / Bannantyne)","Verdun",9,3,43,17,7,24,19.8,0
+"Parc Hilda-Ramacière (de Bullion / Prince-Arthur)","Le Plateau-Mont-Royal",8,4,79,16,20,36,16.9,0
+"Boyer / Beaubien","Rosemont - La Petite-Patrie",10,6,245,9,46,55,7.2,0
+"Mairie d'arrondissement LaSalle (Dupras / Jeannette)","LaSalle",5,3,7,0,4,4,14.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",5,5,69,15,15,30,14.4,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",6,6,58,2,14,16,21,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",10,5,5,0,2,2,5.7,0
+"des Érables / Dandurand","Rosemont - La Petite-Patrie",8,5,66,13,13,26,24.5,0
+"de St-Vallier / St-Zotique","Rosemont - La Petite-Patrie",5,5,78,10,26,36,17.4,0
+"41e avenue / Rosemont","Rosemont - La Petite-Patrie",6,5,27,6,7,13,18.4,0
+"Métro Snowdon (Circle / Queen-Mary)","Côte-des-Neiges - Notre-Dame-de-Grâce",8,3,82,6,23,29,19.2,0
+"St-Jacques / St-Laurent","Ville-Marie",5,2,50,3,23,26,14.5,0
+"Gilford / Papineau","Le Plateau-Mont-Royal",7,5,111,18,24,42,23.2,0
+"Melville / de Maisonneuve","Westmount",9,7,62,9,6,15,10.5,0
+"Laval / du Mont-Royal","Le Plateau-Mont-Royal",6,7,131,8,32,40,16.3,0
+"Clark / de Liège","Villeray—Saint-Michel—Parc-Extension",7,4,63,7,26,33,20.1,0
+"Crescent / de Maisonneuve","Ville-Marie",8,5,171,13,58,71,19.7,0
+"Chabot / Villeray","Villeray—Saint-Michel—Parc-Extension",5,1,29,4,13,17,16.4,0
+"Irwin / Allard","LaSalle",5,1,19,4,7,11,15.3,0
+"Boyer / Jean-Talon","Rosemont - La Petite-Patrie",6,6,106,5,17,22,18.5,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",7,7,4,0,1,1,23.8,0
+"de Hampton / de Monkland","Côte-des-Neiges - Notre-Dame-de-Grâce",9,4,55,13,10,23,21.6,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",8,7,66,0,11,11,20.4,0
+"de Bellechasse / de Lanaudière","Rosemont - La Petite-Patrie",7,1,71,11,17,28,20.4,0
+"Saint-Rémi / Valois","Laval",8,6,3,0,1,1,27.4,0
+"La Tour de Montréal (Pierre-de-Coubertin / Bennett)","Mercier - Hochelaga-Maisonneuve",5,5,2,0,0,0,20.3,0
+"Atwater / Sherbrooke","Ville-Marie",10,7,31,3,7,10,13.1,0
+"Léa-Roback / Sir-Georges-Etienne-Cartier","Le Sud-Ouest",10,2,31,10,10,20,7,0
+"Desaulniers / Marquette","Longueuil",8,7,7,1,2,3,20.4,0
+"Waverly / St-Viateur","Le Plateau-Mont-Royal",7,1,129,19,38,57,25.3,0
+"Métro Crémazie (Crémazie / Lajeunesse)","Ahuntsic-Cartierville",8,5,103,22,29,51,19.2,0
+"Wilderton  / Van Horne","Côte-des-Neiges - Notre-Dame-de-Grâce",5,4,69,18,14,32,11.1,0
+"Parc de la Confédération (Fielding / West Hill)","Côte-des-Neiges - Notre-Dame-de-Grâce",10,5,26,1,9,10,5.7,0
+"Graham / Brookfield","Mont-Royal",9,1,31,11,8,19,17.8,0
+"St-Hubert / Duluth","Le Plateau-Mont-Royal",8,7,163,12,31,43,24.7,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",5,5,3,3,0,3,20.3,0
+"Crescent / de Maisonneuve","Ville-Marie",5,5,232,13,75,88,17.4,0
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",10,7,6,0,3,3,14,0
+"Parc Bariteau (Saint-Georges)","Longueuil",6,2,4,0,1,1,15,0
+"St-Patrick / Briand","Le Sud-Ouest",5,3,55,11,21,32,16.7,0
+"Crescent / de Maisonneuve","Ville-Marie",10,2,203,14,62,76,17,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",9,1,163,34,38,72,17.8,0
+"Mayfield / St-Martin O","Laval",6,6,1,0,0,0,19.5,0
+"Aylmer / Ste-Catherine","Ville-Marie",5,5,61,1,20,21,17.4,0
+"St-Laurent / Joliette","Longueuil",8,6,14,0,5,5,22.4,0
+"Ontario / Sicard","Mercier - Hochelaga-Maisonneuve",10,3,73,19,18,37,9.7,0
+"Hodge / Laperrière","Saint-Laurent",6,7,4,0,4,4,20.5,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",7,1,140,25,38,63,24.3,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",5,2,122,18,38,56,17.7,0
+"Souligny / Desmarteau","Mercier - Hochelaga-Maisonneuve",9,1,10,2,3,5,22.4,0
+"de Chambly / de Rouen","Mercier - Hochelaga-Maisonneuve",7,2,25,9,3,12,24.8,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",8,3,168,14,62,76,19.2,0
+"Parc du Bois-Franc (de l'Équateur / des Andes)","Saint-Laurent",10,3,4,2,0,2,15.7,0
+"Aylmer / Ste-Catherine","Ville-Marie",10,6,34,3,10,13,12.5,0
+"Travaux publics LaSalle (Cordner / Léger)","LaSalle",8,7,11,0,0,0,21.5,0
+"Hutchison / Van Horne","Le Plateau-Mont-Royal",10,1,63,17,14,31,1.2,0
+"St-Dominique / du Mont-Royal","Le Plateau-Mont-Royal",5,6,210,13,42,55,20.5,0
+"Earnscliffe / Queen-Mary","Côte-des-Neiges - Notre-Dame-de-Grâce",6,1,23,0,6,6,20.5,0
+"Boyer / Everett","Villeray—Saint-Michel—Parc-Extension",8,1,38,13,5,18,17.4,1
+"Parc Aimé-Léonard (Gouin / Ste-Gertrude)","Montréal-Nord",7,5,8,1,1,2,25.3,0
+"Querbes / Laurier","Outremont",6,3,75,22,23,45,22.3,1
+"St-Dominique / Rachel","Le Plateau-Mont-Royal",8,7,199,7,41,48,20.4,0
+"de Côme / Jean-Talon","Saint-Léonard",10,6,9,0,2,2,9.9,0
+"Parc St-Claude (7e Avenue / 8e rue)","Laval",9,2,6,2,1,3,23.1,0
+"St-Dominique / Bernard","Le Plateau-Mont-Royal",8,3,52,9,14,23,19.2,0
+"Métro Jarry (Lajeunesse / Jarry)","Villeray—Saint-Michel—Parc-Extension",7,3,170,26,28,54,22.9,1
+"St-Patrick / Briand","Le Sud-Ouest",8,4,52,7,22,29,16.9,0
+"Parc du Pélican (2e avenue / St-Joseph)","Rosemont - La Petite-Patrie",8,6,42,5,3,8,24.3,0
+"Jean-Paul-Vincent / Adoncour","Longueuil",7,7,2,0,0,0,19.5,0
+"Drummond / des-Canadiens-de-Montréal","Ville-Marie",10,7,96,7,23,30,14,0
+"Brébeuf / Curé-Poirier","Longueuil",8,3,18,4,2,6,18.1,0
+"de l'Esplanade / du Mont-Royal","Le Plateau-Mont-Royal",6,2,179,31,51,82,26.7,0
+"Graham / Brookfield","Mont-Royal",5,2,31,8,6,14,14.5,0
+"de Côme / Jean-Talon","Saint-Léonard",10,2,11,0,2,2,16.4,0
+"Chambord / Beaubien","Rosemont - La Petite-Patrie",9,7,96,12,26,38,21.7,0
